@@ -1,0 +1,70 @@
+{
+  "scenario": "2026-03-25_extreme-firehose.json",
+  "meta": {
+    "employeeId": "EMP-228",
+    "employeeName": "FIREHOSE (1-sec pings)",
+    "date": "2026-03-25",
+    "dayOfWeek": "Wednesday",
+    "deviceId": "sim-firehose",
+    "totalHours": 9,
+    "entryCount": 1,
+    "pingCount": 32401,
+    "qbtEntries": [
+      {
+        "jobcodeName": "Eklund",
+        "hours": 8,
+        "start": "2026-03-25T15:00:00.000Z",
+        "end": "2026-03-26T00:00:00.000Z"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316
+      }
+    ],
+    "extreme": "firehose"
+  },
+  "replayedAt": "2026-03-26T09:58:12.651Z",
+  "mode": "fast",
+  "drafts": [
+    {
+      "id": "44798425-2a96-4d06-b6fd-8dd613bb941e",
+      "date": "2026-03-25T07:00:00.000Z",
+      "property_id": "PROP-00015",
+      "hours": 3.85,
+      "arrive_time": "2026-03-25T15:19:45.000Z",
+      "depart_time": "2026-03-25T19:10:49.000Z",
+      "dwell_minutes": 231,
+      "confidence": 0.5,
+      "status": "pending_review",
+      "poi_type": "unknown_visit",
+      "poi_name": "112 Westmoor Ct.",
+      "has_offline_gap": false,
+      "adjusted_arrive_time": null,
+      "adjusted_depart_time": null,
+      "adjusted_hours": null,
+      "adjustment_note": null,
+      "adjustment_source": null,
+      "jobcode_id": null,
+      "reviewed_at": null,
+      "approved_at": null,
+      "qbt_timesheet_id": null,
+      "metadata": {
+        "type": "unknown_visit",
+        "shape": "elongated",
+        "pingCount": 3761
+      }
+    }
+  ],
+  "qbtEntries": [
+    {
+      "jobcodeName": "Eklund",
+      "hours": 8,
+      "start": "2026-03-25T15:00:00.000Z",
+      "end": "2026-03-26T00:00:00.000Z"
+    }
+  ]
+}

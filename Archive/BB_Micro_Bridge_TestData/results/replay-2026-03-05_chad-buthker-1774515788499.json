@@ -1,0 +1,151 @@
+{
+  "scenario": "2026-03-05_chad-buthker.json",
+  "meta": {
+    "employeeId": "EMP-1",
+    "qbtUserId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-26",
+    "originalDate": "2026-03-05",
+    "dayOfWeek": "Thursday",
+    "deviceId": "sim-2866540",
+    "totalHours": 8.5,
+    "entryCount": 4,
+    "pingCount": 278,
+    "qbtEntries": [
+      {
+        "timesheetId": 290320170,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1,
+        "durationSeconds": 3600,
+        "start": "2026-03-05T07:45:00-08:00",
+        "end": "2026-03-05T08:45:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290326260,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 2.75,
+        "durationSeconds": 9900,
+        "start": "2026-03-05T08:45:00-08:00",
+        "end": "2026-03-05T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290416116,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-05T11:30:00-08:00",
+        "end": "2026-03-05T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290416112,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.25,
+        "durationSeconds": 15300,
+        "start": "2026-03-05T12:00:00-08:00",
+        "end": "2026-03-05T16:15:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-05T07:45:00-08:00",
+        "end": "2026-03-05T08:45:00-08:00",
+        "hours": 1
+      },
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316,
+        "start": "2026-03-05T08:45:00-08:00",
+        "end": "2026-03-05T11:30:00-08:00",
+        "hours": 2.75
+      },
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316,
+        "start": "2026-03-05T12:00:00-08:00",
+        "end": "2026-03-05T16:15:00-08:00",
+        "hours": 4.25
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:03:08.499Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": [
+    {
+      "timesheetId": 290320170,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 1,
+      "durationSeconds": 3600,
+      "start": "2026-03-05T07:45:00-08:00",
+      "end": "2026-03-05T08:45:00-08:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 290326260,
+      "jobcodeId": 171851070,
+      "jobcodeName": "Eklund",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 2.75,
+      "durationSeconds": 9900,
+      "start": "2026-03-05T08:45:00-08:00",
+      "end": "2026-03-05T11:30:00-08:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 290416116,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-05T11:30:00-08:00",
+      "end": "2026-03-05T12:00:00-08:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 290416112,
+      "jobcodeId": 171851070,
+      "jobcodeName": "Eklund",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 4.25,
+      "durationSeconds": 15300,
+      "start": "2026-03-05T12:00:00-08:00",
+      "end": "2026-03-05T16:15:00-08:00",
+      "type": "regular",
+      "notes": "Chad"
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "scenario": "2026-03-09_clay-anderson.json",
+  "meta": {
+    "employeeId": "EMP-228",
+    "qbtUserId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-25",
+    "originalDate": "2026-03-09",
+    "dayOfWeek": "Wednesday",
+    "deviceId": "sim-7021552",
+    "totalHours": 8,
+    "entryCount": 3,
+    "pingCount": 262,
+    "qbtEntries": [
+      {
+        "timesheetId": 290730606,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 290928286,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-09T11:30:00-07:00",
+        "end": "2026-03-09T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 290928282,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "hours": 3.5
+      },
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:00:00-07:00",
+        "hours": 4
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:49:39.219Z",
+  "mode": "fast",
+  "drafts": [
+    {
+      "id": "c1ed1bd7-e91b-41a4-9d84-22c4c7dc3fff",
+      "date": "2026-03-25T07:00:00.000Z",
+      "property_id": "PROP-00031",
+      "hours": 7.97,
+      "arrive_time": "2026-03-25T15:00:00.000Z",
+      "depart_time": "2026-03-25T22:58:00.000Z",
+      "dwell_minutes": 478,
+      "confidence": 0.95,
+      "status": "pending_review",
+      "poi_type": "jobsite",
+      "poi_name": "109 Tait Ave.",
+      "has_offline_gap": false,
+      "adjusted_arrive_time": null,
+      "adjusted_depart_time": null,
+      "adjusted_hours": null,
+      "adjustment_note": null,
+      "adjustment_source": null,
+      "jobcode_id": null,
+      "reviewed_at": null,
+      "approved_at": null,
+      "qbt_timesheet_id": null,
+      "metadata": {
+        "type": "jobsite",
+        "shape": "circular",
+        "pingCount": 233
+      }
+    }
+  ],
+  "qbtEntries": [
+    {
+      "timesheetId": 290730606,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 3.5,
+      "durationSeconds": 12600,
+      "start": "2026-03-09T08:00:00-07:00",
+      "end": "2026-03-09T11:30:00-07:00",
+      "type": "regular",
+      "notes": "Clay"
+    },
+    {
+      "timesheetId": 290928286,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-09T11:30:00-07:00",
+      "end": "2026-03-09T12:00:00-07:00",
+      "type": "regular",
+      "notes": "Clay"
+    },
+    {
+      "timesheetId": 290928282,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 4,
+      "durationSeconds": 14400,
+      "start": "2026-03-09T12:00:00-07:00",
+      "end": "2026-03-09T16:00:00-07:00",
+      "type": "regular",
+      "notes": "Clay"
+    }
+  ]
+}

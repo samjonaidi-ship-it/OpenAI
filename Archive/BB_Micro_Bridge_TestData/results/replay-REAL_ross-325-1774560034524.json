@@ -1,0 +1,17 @@
+{
+  "scenario": "REAL_ross-325.json",
+  "meta": {
+    "employeeId": "EMP-150",
+    "employeeName": "Ross Bainbridge (real→3/25)",
+    "date": "2026-03-25",
+    "deviceId": "qbt-ross-325",
+    "pingCount": 97,
+    "qbtEntries": [],
+    "jobsites": [],
+    "source": "qbt-geolocations"
+  },
+  "replayedAt": "2026-03-26T21:20:34.523Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": []
+}

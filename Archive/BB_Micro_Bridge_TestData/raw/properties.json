@@ -1,0 +1,551 @@
+[
+  {
+    "id": "PROP-00041",
+    "address": "101 Johnson Hollow",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2172191,
+    "lng": -121.9684341,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00059",
+    "address": "105 Sunnyslopes Ct.",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.97656449999999,
+    "lng": -122.0395872,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00050",
+    "address": "10650 E Zayante Rd.",
+    "city": "Felton",
+    "state": "CA",
+    "lat": 37.099279,
+    "lng": -122.0365428,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00031",
+    "address": "109 Tait Ave.",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2257295,
+    "lng": -121.9851605,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00015",
+    "address": "112 Westmoor Ct.",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.9764496,
+    "lng": -122.0525316,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00055",
+    "address": "113 Oakland Ave.",
+    "city": "Capitola",
+    "state": "CA",
+    "lat": 36.974229,
+    "lng": -121.9475904,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00040",
+    "address": "115 Wollin Way",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2292914,
+    "lng": -121.9501507,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00016",
+    "address": "120 Arroyo del Rancho",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2201063,
+    "lng": -121.9226978,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00054",
+    "address": "120 Twin Oaks Dr",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2246312,
+    "lng": -121.9546493,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00030",
+    "address": "1242 Minnesota Ave.",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.30063030000001,
+    "lng": -121.9034756,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00051",
+    "address": "1351 Scossa Ave.",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.2579722,
+    "lng": -121.8887177,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00043",
+    "address": "1367 Scossa Ave",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.2576741,
+    "lng": -121.8892131,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00028",
+    "address": "1384 Mariposa Ave.",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.3261407,
+    "lng": -121.9141318,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00036",
+    "address": "1409 Galloway Ct.",
+    "city": "Sunnyvale",
+    "state": "CA",
+    "lat": 37.3476435,
+    "lng": -122.0533573,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00026",
+    "address": "1441 Sprucewood Dr.",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.2480452,
+    "lng": -121.8917792,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00009",
+    "address": "1451 Mercer Ave.",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.2961218,
+    "lng": -121.9069969,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00006",
+    "address": "150 Anchorage Ave.",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.9565202,
+    "lng": -121.973874,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00034",
+    "address": "1585 Keesling Ave",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.2957001,
+    "lng": -121.9123238,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00045",
+    "address": "15885 La Escuela Ct.",
+    "city": "Morgan Hill",
+    "state": "CA",
+    "lat": 37.1060354,
+    "lng": -121.6485228,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00052",
+    "address": "15958 Longwood Dr.",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2366651,
+    "lng": -121.9514073,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00025",
+    "address": "161 Anchorage Ave",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.956724,
+    "lng": -121.9742709,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00056",
+    "address": "16176 Rose ave.",
+    "city": "Monte Sereno",
+    "state": "CA",
+    "lat": 37.232688,
+    "lng": -121.9849747,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00024",
+    "address": "1694 Hyde Dr.",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2635987,
+    "lng": -121.9908941,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00022",
+    "address": "1747 Cottle Ave.",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.2949688,
+    "lng": -121.8988928,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00018",
+    "address": "180 Sunny Cove Dr.",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.9612985,
+    "lng": -121.988525,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00029",
+    "address": "18101 Overlook Rd.",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2275127,
+    "lng": -121.992584,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00044",
+    "address": "1850 Jennifer Drive",
+    "city": "Aptos",
+    "state": "CA",
+    "lat": 36.9912536,
+    "lng": -121.9121089,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00001",
+    "address": "1864 Loyola Dr.",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.3355905,
+    "lng": -121.8333565,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00007",
+    "address": "18765 Austin Way",
+    "city": "Monte Sereno",
+    "state": "CA",
+    "lat": 37.2421318,
+    "lng": -122.0003331,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00014",
+    "address": "18781 Westview Dr.",
+    "city": "Saratoga",
+    "state": "CA",
+    "lat": 37.2869992,
+    "lng": -122.0005634,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00049",
+    "address": "204 Bayview Ct.",
+    "city": "Aptos",
+    "state": "CA",
+    "lat": 36.971572,
+    "lng": -121.901834,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00058",
+    "address": "206 13th Ave.",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.9615067,
+    "lng": -121.9943562,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00042",
+    "address": "21 Lilly Way",
+    "city": "Watsonville",
+    "state": "CA",
+    "lat": 36.9125078,
+    "lng": -121.845367,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00061",
+    "address": "25270 Terrace Grove Rd",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.1044789,
+    "lng": -121.9509254,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00023",
+    "address": "2530 Paul Minnie Ave.",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.9850571,
+    "lng": -121.9839335,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00046",
+    "address": "2831 Mattison Lane",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.985806,
+    "lng": -121.9724781,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00005",
+    "address": "28625 Matadero Creek Court",
+    "city": "Los Altos Hills",
+    "state": "CA",
+    "lat": 37.3706256,
+    "lng": -122.16186,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00017",
+    "address": "320 6th ave.",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.9656221,
+    "lng": -121.9992386,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00020",
+    "address": "328 34th Ave",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.9580555,
+    "lng": -121.9710615,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00053",
+    "address": "33 Irving Ave",
+    "city": "Atherton",
+    "state": "CA",
+    "lat": 37.4706583,
+    "lng": -122.189837,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00013",
+    "address": "3457 Maplethorpe Ln",
+    "city": "Soquel",
+    "state": "CA",
+    "lat": 36.992582,
+    "lng": -121.9376985,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00033",
+    "address": "405 Camino Al Mar",
+    "city": "Watsonville",
+    "state": "CA",
+    "lat": 36.9403019,
+    "lng": -121.8677227,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00032",
+    "address": "414 Camino Al Mar",
+    "city": "La Selva Beach",
+    "state": "CA",
+    "lat": 36.9400339,
+    "lng": -121.8681661,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00035",
+    "address": "415 Park Ave.",
+    "city": "San Carlos",
+    "state": "CA",
+    "lat": 37.4896127,
+    "lng": -122.2540774,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00038",
+    "address": "416 Camino Al Mar",
+    "city": "La Selva Beach",
+    "state": "CA",
+    "lat": 36.9399583,
+    "lng": -121.8680655,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00002",
+    "address": "4333 Fairway Dr",
+    "city": "Soquel",
+    "state": "CA",
+    "lat": 37.0008373,
+    "lng": -121.9394835,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00021",
+    "address": "4335 Canada Court",
+    "city": "Carmel",
+    "state": "CA",
+    "lat": 36.555887,
+    "lng": -121.8976602,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00037",
+    "address": "445 Maple Ave",
+    "city": "Ben Lomond",
+    "state": "CA",
+    "lat": 37.0822514,
+    "lng": -122.0797624,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00019",
+    "address": "4675 Emerald St.",
+    "city": "Capitola",
+    "state": "CA",
+    "lat": 36.9727961,
+    "lng": -121.9585274,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00012",
+    "address": "500 36th Ave.",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.9595007,
+    "lng": -121.9693473,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00008",
+    "address": "5035 Soquel Drive",
+    "city": "Soquel",
+    "state": "CA",
+    "lat": 36.9881188,
+    "lng": -121.9526405,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00003",
+    "address": "529 N 22nd St.",
+    "city": "San Jose",
+    "state": "CA",
+    "lat": 37.3553934,
+    "lng": -121.8765572,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00048",
+    "address": "533 41st Ave.",
+    "city": "Santa Cruz",
+    "state": "CA",
+    "lat": 36.9607584,
+    "lng": -121.9652087,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00011",
+    "address": "600 Meadowridge Rd.",
+    "city": "Watsonville",
+    "state": "CA",
+    "lat": 36.9972117,
+    "lng": -121.7918064,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00057",
+    "address": "615 Vasona ct.",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2611864,
+    "lng": -121.965215,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00039",
+    "address": "726 Bicknell Rd.",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2510988,
+    "lng": -121.9830368,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00004",
+    "address": "805 University Ave.",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2399969,
+    "lng": -121.9747139,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00060",
+    "address": "805 University Ave. Suite I",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2399975,
+    "lng": -121.9745123,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00047",
+    "address": "812 Pollard Rd",
+    "city": "Los Gatos",
+    "state": "CA",
+    "lat": 37.2621337,
+    "lng": -121.9705823,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00010",
+    "address": "964 Wallace Ave",
+    "city": "Aptos",
+    "state": "CA",
+    "lat": 36.9766655,
+    "lng": -121.8792935,
+    "status": "active"
+  },
+  {
+    "id": "PROP-00027",
+    "address": "970 Huntington Dr",
+    "city": "Aptos",
+    "state": "CA",
+    "lat": 36.9774956,
+    "lng": -121.8800994,
+    "status": "active"
+  }
+]

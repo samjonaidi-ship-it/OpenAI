@@ -1,0 +1,145 @@
+{
+  "scenario": "2026-03-09_matt-miguel.json",
+  "meta": {
+    "employeeId": "EMP-142",
+    "qbtUserId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-25",
+    "originalDate": "2026-03-09",
+    "dayOfWeek": "Wednesday",
+    "deviceId": "sim-5623604",
+    "totalHours": 8.25,
+    "entryCount": 3,
+    "pingCount": 270,
+    "qbtEntries": [
+      {
+        "timesheetId": 290730236,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 290843992,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-09T11:30:00-07:00",
+        "end": "2026-03-09T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 290843990,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.25,
+        "durationSeconds": 15300,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:15:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "hours": 3.5
+      },
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:15:00-07:00",
+        "hours": 4.25
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:42:23.399Z",
+  "mode": "fast",
+  "drafts": [
+    {
+      "id": "131eb2d0-653c-490b-aa28-29b347da5e20",
+      "date": "2026-03-25T07:00:00.000Z",
+      "property_id": "PROP-00031",
+      "hours": 8.23,
+      "arrive_time": "2026-03-25T15:00:00.000Z",
+      "depart_time": "2026-03-25T23:14:00.000Z",
+      "dwell_minutes": 494,
+      "confidence": 0.95,
+      "status": "pending_review",
+      "poi_type": "jobsite",
+      "poi_name": "109 Tait Ave.",
+      "has_offline_gap": false,
+      "adjusted_arrive_time": null,
+      "adjusted_depart_time": null,
+      "adjusted_hours": null,
+      "adjustment_note": null,
+      "adjustment_source": null,
+      "jobcode_id": null,
+      "reviewed_at": null,
+      "approved_at": null,
+      "qbt_timesheet_id": null,
+      "metadata": {
+        "type": "jobsite",
+        "shape": "circular",
+        "pingCount": 240
+      }
+    }
+  ],
+  "qbtEntries": [
+    {
+      "timesheetId": 290730236,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 3.5,
+      "durationSeconds": 12600,
+      "start": "2026-03-09T08:00:00-07:00",
+      "end": "2026-03-09T11:30:00-07:00",
+      "type": "regular",
+      "notes": "Matt"
+    },
+    {
+      "timesheetId": 290843992,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-09T11:30:00-07:00",
+      "end": "2026-03-09T12:00:00-07:00",
+      "type": "regular",
+      "notes": "Matt"
+    },
+    {
+      "timesheetId": 290843990,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 4.25,
+      "durationSeconds": 15300,
+      "start": "2026-03-09T12:00:00-07:00",
+      "end": "2026-03-09T16:15:00-07:00",
+      "type": "regular",
+      "notes": "Matt"
+    }
+  ]
+}

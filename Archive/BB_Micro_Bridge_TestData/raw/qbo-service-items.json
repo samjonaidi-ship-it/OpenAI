@@ -1,0 +1,86 @@
+[
+  {
+    "Name": "City",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "11"
+  },
+  {
+    "Name": "Credit",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "46"
+  },
+  {
+    "Name": "Fee",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "50"
+  },
+  {
+    "Name": "Fixed Markup",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "47"
+  },
+  {
+    "Name": "Past Due",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "64"
+  },
+  {
+    "Name": "Labor",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "2"
+  },
+  {
+    "Name": "Landfill",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "9"
+  },
+  {
+    "Name": "Materials",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "3"
+  },
+  {
+    "Name": "OH & Ins",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "10"
+  },
+  {
+    "Name": "PM",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "48"
+  },
+  {
+    "Name": "Rental",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "8"
+  },
+  {
+    "Name": "Sub-Con",
+    "Active": true,
+    "Type": "Service",
+    "sparse": true,
+    "Id": "1"
+  }
+]

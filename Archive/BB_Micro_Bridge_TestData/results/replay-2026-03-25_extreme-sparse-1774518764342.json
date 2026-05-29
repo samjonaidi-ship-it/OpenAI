@@ -1,0 +1,41 @@
+{
+  "scenario": "2026-03-25_extreme-sparse.json",
+  "meta": {
+    "employeeId": "2866540",
+    "employeeName": "SPARSE (unreliable GPS)",
+    "date": "2026-03-25",
+    "dayOfWeek": "Wednesday",
+    "deviceId": "sim-sparse",
+    "totalHours": 8,
+    "entryCount": 1,
+    "pingCount": 21,
+    "qbtEntries": [
+      {
+        "jobcodeName": "Eklund",
+        "hours": 8,
+        "start": "2026-03-25T16:00:00.000Z",
+        "end": "2026-03-25T23:00:00.000Z"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316
+      }
+    ],
+    "extreme": "sparse"
+  },
+  "replayedAt": "2026-03-26T09:52:44.341Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": [
+    {
+      "jobcodeName": "Eklund",
+      "hours": 8,
+      "start": "2026-03-25T16:00:00.000Z",
+      "end": "2026-03-25T23:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,2393 @@
+[
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-05",
+    "dayOfWeek": "Thursday",
+    "totalHours": 8.5,
+    "entryCount": 4,
+    "entries": [
+      {
+        "timesheetId": 290320170,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1,
+        "durationSeconds": 3600,
+        "start": "2026-03-05T07:45:00-08:00",
+        "end": "2026-03-05T08:45:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290326260,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 2.75,
+        "durationSeconds": 9900,
+        "start": "2026-03-05T08:45:00-08:00",
+        "end": "2026-03-05T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290416116,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-05T11:30:00-08:00",
+        "end": "2026-03-05T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290416112,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.25,
+        "durationSeconds": 15300,
+        "start": "2026-03-05T12:00:00-08:00",
+        "end": "2026-03-05T16:15:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ]
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-05",
+    "dayOfWeek": "Thursday",
+    "totalHours": 8.25,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290315064,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-05T08:00:00-08:00",
+        "end": "2026-03-05T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 290415028,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-05T11:30:00-08:00",
+        "end": "2026-03-05T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 290415026,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.25,
+        "durationSeconds": 15300,
+        "start": "2026-03-05T12:00:00-08:00",
+        "end": "2026-03-05T16:15:00-08:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ]
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-05",
+    "dayOfWeek": "Thursday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290315848,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-05T08:00:00-08:00",
+        "end": "2026-03-05T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 290489408,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-05T11:30:00-08:00",
+        "end": "2026-03-05T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 290489402,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-05T12:00:00-08:00",
+        "end": "2026-03-05T16:00:00-08:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ]
+  },
+  {
+    "employeeId": "5901720",
+    "employeeName": "Felipe Sandoval Ontiveros",
+    "date": "2026-03-05",
+    "dayOfWeek": "Thursday",
+    "totalHours": 8,
+    "entryCount": 1,
+    "entries": [
+      {
+        "timesheetId": 292236824,
+        "jobcodeId": 175345050,
+        "jobcodeName": "Duckworth",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 8,
+        "durationSeconds": 28800,
+        "start": null,
+        "end": null,
+        "type": "manual",
+        "notes": "Felipe"
+      }
+    ]
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-05",
+    "dayOfWeek": "Thursday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290314986,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-05T08:00:00-08:00",
+        "end": "2026-03-05T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 290414400,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-05T11:30:00-08:00",
+        "end": "2026-03-05T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 290414396,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-05T12:00:00-08:00",
+        "end": "2026-03-05T16:00:00-08:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ]
+  },
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-06",
+    "dayOfWeek": "Friday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290489134,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.75,
+        "durationSeconds": 13500,
+        "start": "2026-03-06T07:45:00-08:00",
+        "end": "2026-03-06T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290578442,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-06T11:30:00-08:00",
+        "end": "2026-03-06T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290578440,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.75,
+        "durationSeconds": 13500,
+        "start": "2026-03-06T12:00:00-08:00",
+        "end": "2026-03-06T15:45:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ]
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-06",
+    "dayOfWeek": "Friday",
+    "totalHours": 7.5,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290485420,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.75,
+        "durationSeconds": 13500,
+        "start": "2026-03-06T07:45:00-08:00",
+        "end": "2026-03-06T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 290573718,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-06T11:30:00-08:00",
+        "end": "2026-03-06T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 290573714,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.25,
+        "durationSeconds": 11700,
+        "start": "2026-03-06T12:00:00-08:00",
+        "end": "2026-03-06T15:15:00-08:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ]
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-06",
+    "dayOfWeek": "Friday",
+    "totalHours": 8,
+    "entryCount": 4,
+    "entries": [
+      {
+        "timesheetId": 290489424,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3,
+        "durationSeconds": 10800,
+        "start": "2026-03-06T08:00:00-08:00",
+        "end": "2026-03-06T11:00:00-08:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 290521450,
+        "jobcodeId": 175345050,
+        "jobcodeName": "Duckworth",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-06T11:00:00-08:00",
+        "end": "2026-03-06T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 290534710,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-06T11:30:00-08:00",
+        "end": "2026-03-06T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 290534754,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-06T12:00:00-08:00",
+        "end": "2026-03-06T16:00:00-08:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ]
+  },
+  {
+    "employeeId": "5901720",
+    "employeeName": "Felipe Sandoval Ontiveros",
+    "date": "2026-03-06",
+    "dayOfWeek": "Friday",
+    "totalHours": 7,
+    "entryCount": 1,
+    "entries": [
+      {
+        "timesheetId": 292236826,
+        "jobcodeId": 175345050,
+        "jobcodeName": "Duckworth",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 7,
+        "durationSeconds": 25200,
+        "start": null,
+        "end": null,
+        "type": "manual",
+        "notes": "Felipe"
+      }
+    ]
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-06",
+    "dayOfWeek": "Friday",
+    "totalHours": 8,
+    "entryCount": 4,
+    "entries": [
+      {
+        "timesheetId": 290521412,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3,
+        "durationSeconds": 10800,
+        "start": "2026-03-06T08:00:00-08:00",
+        "end": "2026-03-06T11:00:00-08:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 290521454,
+        "jobcodeId": 175345050,
+        "jobcodeName": "Duckworth",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-06T11:00:00-08:00",
+        "end": "2026-03-06T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 290534676,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-06T11:30:00-08:00",
+        "end": "2026-03-06T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 290534700,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-06T12:00:00-08:00",
+        "end": "2026-03-06T16:00:00-08:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ]
+  },
+  {
+    "employeeId": "5761332",
+    "employeeName": "Ross Bainbridge",
+    "date": "2026-03-06",
+    "dayOfWeek": "Friday",
+    "totalHours": 1.5,
+    "entryCount": 1,
+    "entries": [
+      {
+        "timesheetId": 290527350,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1.5,
+        "durationSeconds": 5400,
+        "start": "2026-03-06T11:15:00-08:00",
+        "end": "2026-03-06T12:45:00-08:00",
+        "type": "regular",
+        "notes": "Ross"
+      }
+    ]
+  },
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-09",
+    "dayOfWeek": "Monday",
+    "totalHours": 8.25,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290729202,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290844582,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-09T11:30:00-07:00",
+        "end": "2026-03-09T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290844580,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.25,
+        "durationSeconds": 15300,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:15:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ]
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-09",
+    "dayOfWeek": "Monday",
+    "totalHours": 8.25,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290844318,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 290844346,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-09T11:30:00-07:00",
+        "end": "2026-03-09T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 290844344,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.25,
+        "durationSeconds": 15300,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:15:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ]
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-09",
+    "dayOfWeek": "Monday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290730606,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 290928286,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-09T11:30:00-07:00",
+        "end": "2026-03-09T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 290928282,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ]
+  },
+  {
+    "employeeId": "3194176",
+    "employeeName": "Evan Bainbridge",
+    "date": "2026-03-09",
+    "dayOfWeek": "Monday",
+    "totalHours": 4,
+    "entryCount": 1,
+    "entries": [
+      {
+        "timesheetId": 292231738,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": null,
+        "end": null,
+        "type": "manual",
+        "notes": "Evan"
+      }
+    ]
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-09",
+    "dayOfWeek": "Monday",
+    "totalHours": 8.25,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290730236,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 290843992,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-09T11:30:00-07:00",
+        "end": "2026-03-09T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 290843990,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.25,
+        "durationSeconds": 15300,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:15:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ]
+  },
+  {
+    "employeeId": "5761332",
+    "employeeName": "Ross Bainbridge",
+    "date": "2026-03-09",
+    "dayOfWeek": "Monday",
+    "totalHours": 2.5,
+    "entryCount": 2,
+    "entries": [
+      {
+        "timesheetId": 290764316,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1.5,
+        "durationSeconds": 5400,
+        "start": "2026-03-09T10:15:00-07:00",
+        "end": "2026-03-09T11:45:00-07:00",
+        "type": "regular",
+        "notes": "Ross"
+      },
+      {
+        "timesheetId": 290795096,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1,
+        "durationSeconds": 3600,
+        "start": "2026-03-09T12:15:00-07:00",
+        "end": "2026-03-09T13:15:00-07:00",
+        "type": "regular",
+        "notes": "Ross"
+      }
+    ]
+  },
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-10",
+    "dayOfWeek": "Tuesday",
+    "totalHours": 8.75,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290927832,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-10T08:00:00-07:00",
+        "end": "2026-03-10T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291038298,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-10T11:30:00-07:00",
+        "end": "2026-03-10T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291038296,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.75,
+        "durationSeconds": 17100,
+        "start": "2026-03-10T12:00:00-07:00",
+        "end": "2026-03-10T16:45:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ]
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-10",
+    "dayOfWeek": "Tuesday",
+    "totalHours": 8.75,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290928862,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-10T08:00:00-07:00",
+        "end": "2026-03-10T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291038364,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-10T11:30:00-07:00",
+        "end": "2026-03-10T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291038362,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.75,
+        "durationSeconds": 17100,
+        "start": "2026-03-10T12:00:00-07:00",
+        "end": "2026-03-10T16:45:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ]
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-10",
+    "dayOfWeek": "Tuesday",
+    "totalHours": 8.5,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290928464,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-10T08:00:00-07:00",
+        "end": "2026-03-10T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291036782,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-10T11:30:00-07:00",
+        "end": "2026-03-10T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291036780,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.5,
+        "durationSeconds": 16200,
+        "start": "2026-03-10T12:00:00-07:00",
+        "end": "2026-03-10T16:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ]
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-10",
+    "dayOfWeek": "Tuesday",
+    "totalHours": 8.5,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 290929618,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-10T08:00:00-07:00",
+        "end": "2026-03-10T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 291037332,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-10T11:30:00-07:00",
+        "end": "2026-03-10T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 291037330,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.5,
+        "durationSeconds": 16200,
+        "start": "2026-03-10T12:00:00-07:00",
+        "end": "2026-03-10T16:30:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ]
+  },
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-11",
+    "dayOfWeek": "Wednesday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291114450,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-11T07:30:00-07:00",
+        "end": "2026-03-11T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291215858,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-11T11:30:00-07:00",
+        "end": "2026-03-11T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291215854,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-11T12:00:00-07:00",
+        "end": "2026-03-11T15:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ]
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-11",
+    "dayOfWeek": "Wednesday",
+    "totalHours": 7.5,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291149218,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-11T08:00:00-07:00",
+        "end": "2026-03-11T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291215672,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-11T11:30:00-07:00",
+        "end": "2026-03-11T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291215670,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-11T12:00:00-07:00",
+        "end": "2026-03-11T15:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ]
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-11",
+    "dayOfWeek": "Wednesday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291116954,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-11T08:00:00-07:00",
+        "end": "2026-03-11T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291219240,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-11T11:30:00-07:00",
+        "end": "2026-03-11T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291219236,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-11T12:00:00-07:00",
+        "end": "2026-03-11T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ]
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-11",
+    "dayOfWeek": "Wednesday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291117822,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-11T08:00:00-07:00",
+        "end": "2026-03-11T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 291219246,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-11T11:30:00-07:00",
+        "end": "2026-03-11T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 291219244,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-11T12:00:00-07:00",
+        "end": "2026-03-11T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ]
+  },
+  {
+    "employeeId": "5761332",
+    "employeeName": "Ross Bainbridge",
+    "date": "2026-03-11",
+    "dayOfWeek": "Wednesday",
+    "totalHours": 2.75,
+    "entryCount": 1,
+    "entries": [
+      {
+        "timesheetId": 291135566,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 2.75,
+        "durationSeconds": 9900,
+        "start": "2026-03-11T09:30:00-07:00",
+        "end": "2026-03-11T12:15:00-07:00",
+        "type": "regular",
+        "notes": "Ross"
+      }
+    ]
+  },
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-12",
+    "dayOfWeek": "Thursday",
+    "totalHours": 5,
+    "entryCount": 4,
+    "entries": [
+      {
+        "timesheetId": 291296704,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-12T07:15:00-07:00",
+        "end": "2026-03-12T10:45:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291335404,
+        "jobcodeId": 159620870,
+        "jobcodeName": "Bainbridge",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 0.75,
+        "durationSeconds": 2700,
+        "start": "2026-03-12T10:45:00-07:00",
+        "end": "2026-03-12T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291635130,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-12T11:30:00-07:00",
+        "end": "2026-03-12T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291635128,
+        "jobcodeId": 159620870,
+        "jobcodeName": "Bainbridge",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 0.25,
+        "durationSeconds": 900,
+        "start": "2026-03-12T12:00:00-07:00",
+        "end": "2026-03-12T12:15:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ]
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-12",
+    "dayOfWeek": "Thursday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291302386,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-12T08:00:00-07:00",
+        "end": "2026-03-12T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291400714,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-12T11:30:00-07:00",
+        "end": "2026-03-12T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291400712,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-12T12:00:00-07:00",
+        "end": "2026-03-12T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ]
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-12",
+    "dayOfWeek": "Thursday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291304580,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-12T08:00:00-07:00",
+        "end": "2026-03-12T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291399928,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-12T11:30:00-07:00",
+        "end": "2026-03-12T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291399922,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-12T12:00:00-07:00",
+        "end": "2026-03-12T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ]
+  },
+  {
+    "employeeId": "3194176",
+    "employeeName": "Evan Bainbridge",
+    "date": "2026-03-12",
+    "dayOfWeek": "Thursday",
+    "totalHours": 4,
+    "entryCount": 1,
+    "entries": [
+      {
+        "timesheetId": 292231742,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": null,
+        "end": null,
+        "type": "manual",
+        "notes": "Evan"
+      }
+    ]
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-12",
+    "dayOfWeek": "Thursday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291304160,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-12T08:00:00-07:00",
+        "end": "2026-03-12T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 291399906,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-12T11:30:00-07:00",
+        "end": "2026-03-12T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 291399904,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-12T12:00:00-07:00",
+        "end": "2026-03-12T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ]
+  },
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-13",
+    "dayOfWeek": "Friday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291477544,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-13T08:00:00-07:00",
+        "end": "2026-03-13T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291574240,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-13T11:30:00-07:00",
+        "end": "2026-03-13T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291574238,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-13T12:00:00-07:00",
+        "end": "2026-03-13T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ]
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-13",
+    "dayOfWeek": "Friday",
+    "totalHours": 8.5,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291471780,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-13T07:30:00-07:00",
+        "end": "2026-03-13T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291567982,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-13T11:30:00-07:00",
+        "end": "2026-03-13T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291567980,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-13T12:00:00-07:00",
+        "end": "2026-03-13T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ]
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-13",
+    "dayOfWeek": "Friday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291476886,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-13T08:00:00-07:00",
+        "end": "2026-03-13T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291568104,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-13T11:30:00-07:00",
+        "end": "2026-03-13T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291568102,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-13T12:00:00-07:00",
+        "end": "2026-03-13T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ]
+  },
+  {
+    "employeeId": "3194176",
+    "employeeName": "Evan Bainbridge",
+    "date": "2026-03-13",
+    "dayOfWeek": "Friday",
+    "totalHours": 4,
+    "entryCount": 1,
+    "entries": [
+      {
+        "timesheetId": 292231746,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": null,
+        "end": null,
+        "type": "manual",
+        "notes": "Evan"
+      }
+    ]
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-13",
+    "dayOfWeek": "Friday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291477214,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-13T08:00:00-07:00",
+        "end": "2026-03-13T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 291567988,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-13T11:30:00-07:00",
+        "end": "2026-03-13T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 291567986,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-13T12:00:00-07:00",
+        "end": "2026-03-13T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ]
+  },
+  {
+    "employeeId": "7342178",
+    "employeeName": "Benjamin Wallan",
+    "date": "2026-03-16",
+    "dayOfWeek": "Monday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291733508,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-16T08:00:00-07:00",
+        "end": "2026-03-16T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      },
+      {
+        "timesheetId": 291941066,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-16T11:30:00-07:00",
+        "end": "2026-03-16T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      },
+      {
+        "timesheetId": 291941064,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-16T12:00:00-07:00",
+        "end": "2026-03-16T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      }
+    ]
+  },
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-16",
+    "dayOfWeek": "Monday",
+    "totalHours": 8.75,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291721364,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-16T07:30:00-07:00",
+        "end": "2026-03-16T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291853104,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-16T11:30:00-07:00",
+        "end": "2026-03-16T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291853102,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.25,
+        "durationSeconds": 15300,
+        "start": "2026-03-16T12:00:00-07:00",
+        "end": "2026-03-16T16:15:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ]
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-16",
+    "dayOfWeek": "Monday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291732224,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-16T08:00:00-07:00",
+        "end": "2026-03-16T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291850934,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-16T11:30:00-07:00",
+        "end": "2026-03-16T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291850932,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-16T12:00:00-07:00",
+        "end": "2026-03-16T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ]
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-16",
+    "dayOfWeek": "Monday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291729602,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-16T08:00:00-07:00",
+        "end": "2026-03-16T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291850604,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-16T11:30:00-07:00",
+        "end": "2026-03-16T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291850602,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-16T12:00:00-07:00",
+        "end": "2026-03-16T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ]
+  },
+  {
+    "employeeId": "3194176",
+    "employeeName": "Evan Bainbridge",
+    "date": "2026-03-16",
+    "dayOfWeek": "Monday",
+    "totalHours": 4,
+    "entryCount": 1,
+    "entries": [
+      {
+        "timesheetId": 292231750,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": null,
+        "end": null,
+        "type": "manual",
+        "notes": "Evan"
+      }
+    ]
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-16",
+    "dayOfWeek": "Monday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291728664,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-16T08:00:00-07:00",
+        "end": "2026-03-16T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 291850016,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-16T11:30:00-07:00",
+        "end": "2026-03-16T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 291850014,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-16T12:00:00-07:00",
+        "end": "2026-03-16T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ]
+  },
+  {
+    "employeeId": "5761332",
+    "employeeName": "Ross Bainbridge",
+    "date": "2026-03-16",
+    "dayOfWeek": "Monday",
+    "totalHours": 4.5,
+    "entryCount": 1,
+    "entries": [
+      {
+        "timesheetId": 291726970,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.5,
+        "durationSeconds": 16200,
+        "start": "2026-03-16T08:00:00-07:00",
+        "end": "2026-03-16T12:30:00-07:00",
+        "type": "regular",
+        "notes": "Ross"
+      }
+    ]
+  },
+  {
+    "employeeId": "7342178",
+    "employeeName": "Benjamin Wallan",
+    "date": "2026-03-17",
+    "dayOfWeek": "Tuesday",
+    "totalHours": 8,
+    "entryCount": 5,
+    "entries": [
+      {
+        "timesheetId": 291935622,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 2,
+        "durationSeconds": 7200,
+        "start": "2026-03-17T08:00:00-07:00",
+        "end": "2026-03-17T10:00:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      },
+      {
+        "timesheetId": 292237052,
+        "jobcodeId": 175345050,
+        "jobcodeName": "Duckworth",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1.5,
+        "durationSeconds": 5400,
+        "start": "2026-03-17T10:00:00-07:00",
+        "end": "2026-03-17T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      },
+      {
+        "timesheetId": 292017094,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-17T11:30:00-07:00",
+        "end": "2026-03-17T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      },
+      {
+        "timesheetId": 292237098,
+        "jobcodeId": 175345050,
+        "jobcodeName": "Duckworth",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 2.25,
+        "durationSeconds": 8100,
+        "start": "2026-03-17T12:00:00-07:00",
+        "end": "2026-03-17T14:15:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      },
+      {
+        "timesheetId": 292017328,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1.75,
+        "durationSeconds": 6300,
+        "start": "2026-03-17T14:15:00-07:00",
+        "end": "2026-03-17T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      }
+    ]
+  },
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-17",
+    "dayOfWeek": "Tuesday",
+    "totalHours": 8.25,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291936112,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.75,
+        "durationSeconds": 13500,
+        "start": "2026-03-17T07:45:00-07:00",
+        "end": "2026-03-17T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 292034066,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-17T11:30:00-07:00",
+        "end": "2026-03-17T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 292034062,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-17T12:00:00-07:00",
+        "end": "2026-03-17T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ]
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-17",
+    "dayOfWeek": "Tuesday",
+    "totalHours": 8,
+    "entryCount": 5,
+    "entries": [
+      {
+        "timesheetId": 291936128,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 2,
+        "durationSeconds": 7200,
+        "start": "2026-03-17T08:00:00-07:00",
+        "end": "2026-03-17T10:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 292237176,
+        "jobcodeId": 175345050,
+        "jobcodeName": "Duckworth",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1.5,
+        "durationSeconds": 5400,
+        "start": "2026-03-17T10:00:00-07:00",
+        "end": "2026-03-17T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 292016844,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-17T11:30:00-07:00",
+        "end": "2026-03-17T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 292237204,
+        "jobcodeId": 175345050,
+        "jobcodeName": "Duckworth",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 2.25,
+        "durationSeconds": 8100,
+        "start": "2026-03-17T12:00:00-07:00",
+        "end": "2026-03-17T14:15:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 292017268,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1.75,
+        "durationSeconds": 6300,
+        "start": "2026-03-17T14:15:00-07:00",
+        "end": "2026-03-17T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ]
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-17",
+    "dayOfWeek": "Tuesday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 292035264,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-17T08:00:00-07:00",
+        "end": "2026-03-17T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 292035296,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-17T11:30:00-07:00",
+        "end": "2026-03-17T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 292035294,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-17T12:00:00-07:00",
+        "end": "2026-03-17T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ]
+  },
+  {
+    "employeeId": "3194176",
+    "employeeName": "Evan Bainbridge",
+    "date": "2026-03-17",
+    "dayOfWeek": "Tuesday",
+    "totalHours": 4,
+    "entryCount": 1,
+    "entries": [
+      {
+        "timesheetId": 292231752,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": null,
+        "end": null,
+        "type": "manual",
+        "notes": "Evan"
+      }
+    ]
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-17",
+    "dayOfWeek": "Tuesday",
+    "totalHours": 7.75,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 291937060,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-17T08:00:00-07:00",
+        "end": "2026-03-17T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 292031530,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-17T11:30:00-07:00",
+        "end": "2026-03-17T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 292031528,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.75,
+        "durationSeconds": 13500,
+        "start": "2026-03-17T12:00:00-07:00",
+        "end": "2026-03-17T15:45:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ]
+  },
+  {
+    "employeeId": "7342178",
+    "employeeName": "Benjamin Wallan",
+    "date": "2026-03-18",
+    "dayOfWeek": "Wednesday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 292118752,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-18T08:00:00-07:00",
+        "end": "2026-03-18T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      },
+      {
+        "timesheetId": 292217970,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-18T11:30:00-07:00",
+        "end": "2026-03-18T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      },
+      {
+        "timesheetId": 292217966,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-18T12:00:00-07:00",
+        "end": "2026-03-18T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Benjamin"
+      }
+    ]
+  },
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-18",
+    "dayOfWeek": "Wednesday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 292120062,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-18T08:00:00-07:00",
+        "end": "2026-03-18T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 292216486,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-18T11:30:00-07:00",
+        "end": "2026-03-18T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 292216484,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-18T12:00:00-07:00",
+        "end": "2026-03-18T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ]
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-18",
+    "dayOfWeek": "Wednesday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 292120176,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-18T08:00:00-07:00",
+        "end": "2026-03-18T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 292216410,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-18T11:30:00-07:00",
+        "end": "2026-03-18T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 292216408,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-18T12:00:00-07:00",
+        "end": "2026-03-18T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ]
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-18",
+    "dayOfWeek": "Wednesday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 292119974,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-18T08:00:00-07:00",
+        "end": "2026-03-18T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 292218278,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-18T11:30:00-07:00",
+        "end": "2026-03-18T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 292218274,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-18T12:00:00-07:00",
+        "end": "2026-03-18T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ]
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "date": "2026-03-18",
+    "dayOfWeek": "Wednesday",
+    "totalHours": 8,
+    "entryCount": 3,
+    "entries": [
+      {
+        "timesheetId": 292118836,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-18T08:00:00-07:00",
+        "end": "2026-03-18T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 292216454,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-18T11:30:00-07:00",
+        "end": "2026-03-18T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      },
+      {
+        "timesheetId": 292216452,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-18T12:00:00-07:00",
+        "end": "2026-03-18T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Matt"
+      }
+    ]
+  }
+]

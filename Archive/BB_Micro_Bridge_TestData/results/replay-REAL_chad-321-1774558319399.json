@@ -1,0 +1,17 @@
+{
+  "scenario": "REAL_chad-321.json",
+  "meta": {
+    "employeeId": "EMP-1",
+    "employeeName": "Chad Buthker (REAL QBT → 3/21)",
+    "date": "2026-03-21",
+    "deviceId": "qbt-chad-321",
+    "pingCount": 97,
+    "qbtEntries": [],
+    "jobsites": [],
+    "source": "qbt-geolocations"
+  },
+  "replayedAt": "2026-03-26T20:51:59.397Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": []
+}

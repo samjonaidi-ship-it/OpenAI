@@ -1,0 +1,1349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BB Data Manager — Mockup</title>
+<style>
+  :root {
+    --bb-red: #C8102E;
+    --bb-dark: #1A1A1A;
+    --bb-white: #FFFFFF;
+    --bb-gray-50: #F8F9FA;
+    --bb-gray-100: #F1F3F5;
+    --bb-gray-200: #E9ECEF;
+    --bb-gray-300: #DEE2E6;
+    --bb-gray-400: #ADB5BD;
+    --bb-gray-500: #6C757D;
+    --bb-gray-600: #495057;
+    --bb-gray-700: #343A40;
+    --bb-green: #2E7D32;
+    --bb-yellow: #F9A825;
+    --bb-blue: #1565C0;
+    --sidebar-w: 220px;
+    --header-h: 52px;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+    background: var(--bb-gray-50);
+    color: var(--bb-dark);
+    font-size: 13px;
+    line-height: 1.5;
+    overflow: hidden;
+    height: 100vh;
+  }
+
+  /* ── LAYOUT ─────────────────────────────── */
+  .app {
+    display: flex;
+    height: 100vh;
+  }
+
+  /* ── SIDEBAR ────────────────────────────── */
+  .sidebar {
+    width: var(--sidebar-w);
+    background: var(--bb-dark);
+    color: var(--bb-gray-300);
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    overflow-y: auto;
+  }
+
+  .sidebar-brand {
+    padding: 16px 20px 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+  }
+
+  .sidebar-brand h1 {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--bb-white);
+    letter-spacing: 0.5px;
+  }
+
+  .sidebar-brand .subtitle {
+    font-size: 10px;
+    color: var(--bb-gray-500);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 2px;
+  }
+
+  .sidebar-section {
+    padding: 16px 0 4px;
+  }
+
+  .sidebar-section-label {
+    padding: 0 20px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: var(--bb-gray-500);
+    margin-bottom: 6px;
+  }
+
+  .sidebar-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 7px 20px;
+    cursor: pointer;
+    transition: all 0.15s;
+    font-size: 13px;
+    color: var(--bb-gray-400);
+    border-left: 3px solid transparent;
+  }
+
+  .sidebar-item:hover {
+    background: rgba(255,255,255,0.05);
+    color: var(--bb-gray-200);
+  }
+
+  .sidebar-item.active {
+    background: rgba(200, 16, 46, 0.15);
+    color: var(--bb-white);
+    border-left-color: var(--bb-red);
+    font-weight: 500;
+  }
+
+  .sidebar-item .icon {
+    width: 16px;
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.7;
+  }
+
+  .sidebar-item .badge {
+    margin-left: auto;
+    font-size: 10px;
+    background: rgba(255,255,255,0.1);
+    padding: 1px 6px;
+    border-radius: 8px;
+    color: var(--bb-gray-400);
+  }
+
+  .sidebar-footer {
+    margin-top: auto;
+    padding: 12px 0;
+    border-top: 1px solid rgba(255,255,255,0.08);
+  }
+
+  /* ── MAIN ───────────────────────────────── */
+  .main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  /* ── HEADER ─────────────────────────────── */
+  .header {
+    height: var(--header-h);
+    background: var(--bb-white);
+    border-bottom: 1px solid var(--bb-gray-200);
+    display: flex;
+    align-items: center;
+    padding: 0 24px;
+    gap: 16px;
+    flex-shrink: 0;
+  }
+
+  .header h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--bb-dark);
+  }
+
+  .sync-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: var(--bb-gray-500);
+    background: var(--bb-gray-100);
+    padding: 3px 10px;
+    border-radius: 12px;
+  }
+
+  .sync-dot {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background: var(--bb-green);
+  }
+
+  .sync-dot.stale { background: var(--bb-yellow); }
+  .sync-dot.error { background: var(--bb-red); }
+
+  .header-actions {
+    margin-left: auto;
+    display: flex;
+    gap: 8px;
+  }
+
+  .btn {
+    padding: 6px 14px;
+    border: 1px solid var(--bb-gray-300);
+    border-radius: 6px;
+    background: var(--bb-white);
+    font-size: 12px;
+    cursor: pointer;
+    color: var(--bb-gray-600);
+    transition: all 0.15s;
+  }
+
+  .btn:hover {
+    background: var(--bb-gray-100);
+    border-color: var(--bb-gray-400);
+  }
+
+  .btn-primary {
+    background: var(--bb-red);
+    color: var(--bb-white);
+    border-color: var(--bb-red);
+  }
+
+  .btn-primary:hover {
+    background: #a80d25;
+  }
+
+  /* ── STATS RIBBON ───────────────────────── */
+  .stats-ribbon {
+    display: flex;
+    gap: 24px;
+    padding: 10px 24px;
+    background: var(--bb-white);
+    border-bottom: 1px solid var(--bb-gray-200);
+    font-size: 12px;
+    color: var(--bb-gray-500);
+  }
+
+  .stat {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .stat-value {
+    font-weight: 600;
+    color: var(--bb-dark);
+  }
+
+  .filled-bar {
+    width: 60px;
+    height: 6px;
+    background: var(--bb-gray-200);
+    border-radius: 3px;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .filled-bar-inner {
+    height: 100%;
+    background: var(--bb-green);
+    border-radius: 3px;
+    transition: width 0.3s;
+  }
+
+  /* ── TOOLBAR ────────────────────────────── */
+  .toolbar {
+    display: flex;
+    gap: 8px;
+    padding: 10px 24px;
+    background: var(--bb-white);
+    border-bottom: 1px solid var(--bb-gray-200);
+    align-items: center;
+  }
+
+  .search-input {
+    padding: 6px 12px;
+    border: 1px solid var(--bb-gray-300);
+    border-radius: 6px;
+    font-size: 12px;
+    width: 240px;
+    outline: none;
+    transition: border-color 0.15s;
+  }
+
+  .search-input:focus {
+    border-color: var(--bb-red);
+  }
+
+  .filter-select {
+    padding: 6px 10px;
+    border: 1px solid var(--bb-gray-300);
+    border-radius: 6px;
+    font-size: 12px;
+    background: var(--bb-white);
+    outline: none;
+    color: var(--bb-gray-600);
+  }
+
+  /* ── CONTENT ────────────────────────────── */
+  .content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 0;
+  }
+
+  /* ── TABLE ──────────────────────────────── */
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+
+  .data-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 5;
+  }
+
+  .data-table th {
+    background: var(--bb-gray-100);
+    padding: 8px 16px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--bb-gray-600);
+    border-bottom: 1px solid var(--bb-gray-300);
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+  }
+
+  .data-table th:hover {
+    background: var(--bb-gray-200);
+  }
+
+  .data-table td {
+    padding: 9px 16px;
+    border-bottom: 1px solid var(--bb-gray-200);
+    vertical-align: middle;
+  }
+
+  .data-table tr:hover td {
+    background: rgba(200, 16, 46, 0.03);
+  }
+
+  .data-table tr.expanded td {
+    background: rgba(200, 16, 46, 0.05);
+    border-bottom-color: transparent;
+  }
+
+  .expand-btn {
+    width: 20px;
+    height: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 10px;
+    color: var(--bb-gray-400);
+    border-radius: 4px;
+    transition: all 0.15s;
+  }
+
+  .expand-btn:hover {
+    background: var(--bb-gray-200);
+    color: var(--bb-dark);
+  }
+
+  .status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+  }
+
+  .status-dot.active { background: var(--bb-green); }
+  .status-dot.inactive { background: var(--bb-gray-400); }
+
+  .id-cell {
+    font-family: 'SF Mono', 'Cascadia Code', 'Consolas', monospace;
+    font-size: 11px;
+    color: var(--bb-gray-500);
+  }
+
+  .id-matched { color: var(--bb-green); }
+  .id-partial { color: var(--bb-yellow); }
+
+  /* ── FILLED BAR IN TABLE ────────────────── */
+  .filled-cell {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .filled-cell .pct {
+    font-size: 11px;
+    font-weight: 600;
+    min-width: 32px;
+    text-align: right;
+  }
+
+  .filled-cell .bar {
+    flex: 1;
+    max-width: 80px;
+    height: 5px;
+    background: var(--bb-gray-200);
+    border-radius: 3px;
+    overflow: hidden;
+  }
+
+  .filled-cell .bar-inner {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.3s;
+  }
+
+  .pct-high .bar-inner { background: var(--bb-green); }
+  .pct-mid .bar-inner { background: var(--bb-yellow); }
+  .pct-low .bar-inner { background: var(--bb-red); }
+  .pct-high .pct { color: var(--bb-green); }
+  .pct-mid .pct { color: var(--bb-yellow); }
+  .pct-low .pct { color: var(--bb-red); }
+
+  /* ── DETAIL PANEL ───────────────────────── */
+  .detail-row td {
+    padding: 0 !important;
+    border-bottom: 1px solid var(--bb-gray-300) !important;
+  }
+
+  .detail-panel {
+    display: flex;
+    gap: 0;
+    background: var(--bb-gray-50);
+  }
+
+  .detail-section {
+    flex: 1;
+    padding: 16px 20px;
+  }
+
+  .detail-section:first-child {
+    border-right: 1px solid var(--bb-gray-200);
+  }
+
+  .detail-section h4 {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--bb-gray-500);
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+
+  .detail-field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 0;
+    font-size: 12px;
+  }
+
+  .detail-field .label {
+    color: var(--bb-gray-500);
+  }
+
+  .detail-field .value {
+    font-weight: 500;
+    color: var(--bb-dark);
+  }
+
+  .detail-field .value.editable {
+    background: var(--bb-white);
+    border: 1px solid var(--bb-gray-300);
+    padding: 2px 8px;
+    border-radius: 4px;
+    cursor: text;
+    min-width: 80px;
+    text-align: right;
+  }
+
+  .detail-field .value.editable:hover {
+    border-color: var(--bb-red);
+  }
+
+  .app-badge {
+    display: inline-block;
+    font-size: 9px;
+    font-weight: 600;
+    padding: 1px 5px;
+    border-radius: 3px;
+    margin-left: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+
+  .app-badge.ts { background: #E3F2FD; color: #1565C0; }
+  .app-badge.cal { background: #E8F5E9; color: #2E7D32; }
+  .app-badge.rev { background: #FFF3E0; color: #E65100; }
+  .app-badge.chase { background: #FCE4EC; color: #C62828; }
+  .app-badge.all { background: var(--bb-gray-200); color: var(--bb-gray-600); }
+
+  .lock-icon {
+    color: var(--bb-gray-400);
+    font-size: 10px;
+    margin-left: 4px;
+  }
+
+  /* ── APP DATA VIEW ──────────────────────── */
+  .app-data-view {
+    padding: 24px;
+  }
+
+  .app-data-header {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 20px;
+  }
+
+  .app-stat-card {
+    background: var(--bb-white);
+    border: 1px solid var(--bb-gray-200);
+    border-radius: 8px;
+    padding: 16px 20px;
+    min-width: 140px;
+  }
+
+  .app-stat-card .card-label {
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--bb-gray-500);
+    margin-bottom: 4px;
+  }
+
+  .app-stat-card .card-value {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--bb-dark);
+  }
+
+  .app-stat-card .card-sub {
+    font-size: 11px;
+    color: var(--bb-gray-500);
+    margin-top: 2px;
+  }
+
+  .tab-bar {
+    display: flex;
+    gap: 0;
+    border-bottom: 2px solid var(--bb-gray-200);
+    margin-bottom: 16px;
+  }
+
+  .tab-btn {
+    padding: 8px 20px;
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--bb-gray-500);
+    cursor: pointer;
+    border: none;
+    background: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.15s;
+  }
+
+  .tab-btn:hover { color: var(--bb-dark); }
+
+  .tab-btn.active {
+    color: var(--bb-red);
+    border-bottom-color: var(--bb-red);
+    font-weight: 600;
+  }
+
+  .schema-table {
+    background: var(--bb-white);
+    border: 1px solid var(--bb-gray-200);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .schema-table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 16px;
+    background: var(--bb-gray-100);
+    border-bottom: 1px solid var(--bb-gray-200);
+    cursor: pointer;
+  }
+
+  .schema-table-header h3 {
+    font-size: 13px;
+    font-weight: 600;
+    font-family: 'SF Mono', 'Cascadia Code', monospace;
+  }
+
+  .schema-table-meta {
+    font-size: 11px;
+    color: var(--bb-gray-500);
+    display: flex;
+    gap: 16px;
+  }
+
+  .schema-cols {
+    padding: 0 16px;
+  }
+
+  .schema-col {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 5px 0;
+    font-size: 12px;
+    border-bottom: 1px solid var(--bb-gray-100);
+  }
+
+  .schema-col:last-child { border-bottom: none; }
+
+  .col-name {
+    font-family: 'SF Mono', 'Cascadia Code', monospace;
+    font-size: 11px;
+    min-width: 140px;
+    color: var(--bb-dark);
+    font-weight: 500;
+  }
+
+  .col-type {
+    font-family: 'SF Mono', 'Cascadia Code', monospace;
+    font-size: 10px;
+    color: var(--bb-gray-500);
+    min-width: 80px;
+  }
+
+  .col-note {
+    font-size: 11px;
+    color: var(--bb-gray-400);
+  }
+
+  .col-badge {
+    font-size: 9px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-weight: 600;
+  }
+
+  .col-badge.pk { background: #FFF9C4; color: #F57F17; }
+  .col-badge.fk { background: #E3F2FD; color: #1565C0; }
+
+  /* ── SYNC VIEW ──────────────────────────── */
+  .sync-view {
+    padding: 24px;
+  }
+
+  .sync-card {
+    background: var(--bb-white);
+    border: 1px solid var(--bb-gray-200);
+    border-radius: 8px;
+    margin-bottom: 16px;
+    overflow: hidden;
+  }
+
+  .sync-card-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 20px;
+    border-bottom: 1px solid var(--bb-gray-200);
+  }
+
+  .sync-card-header h3 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+  .sync-card-body {
+    padding: 0;
+  }
+
+  .sync-entity-row {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px 8px 36px;
+    font-size: 12px;
+    border-bottom: 1px solid var(--bb-gray-100);
+    gap: 20px;
+  }
+
+  .sync-entity-row:last-child { border-bottom: none; }
+
+  .sync-entity-name { min-width: 120px; font-weight: 500; }
+  .sync-entity-count { min-width: 80px; color: var(--bb-gray-500); }
+  .sync-entity-changes { min-width: 100px; color: var(--bb-gray-500); }
+
+  /* ── HIDDEN VIEWS ───────────────────────── */
+  .view { display: none; }
+  .view.active { display: block; }
+  .view-flex { display: none; }
+  .view-flex.active { display: flex; flex-direction: column; }
+
+  /* ── SCROLLBAR ──────────────────────────── */
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--bb-gray-300); border-radius: 3px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--bb-gray-400); }
+</style>
+</head>
+<body>
+
+<div class="app">
+  <!-- ═══ SIDEBAR ═══ -->
+  <nav class="sidebar">
+    <div class="sidebar-brand">
+      <h1>BB Data Manager</h1>
+      <div class="subtitle">Platform Schema v2.18</div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-section-label">Master Data</div>
+      <div class="sidebar-item active" onclick="showView('employees')">
+        <span class="icon">👤</span> Employees <span class="badge">20</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('customers')">
+        <span class="icon">🏠</span> Customers <span class="badge">142</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('vendors')">
+        <span class="icon">🔧</span> Vendors <span class="badge">287</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('jobcodes')">
+        <span class="icon">📋</span> Jobcodes <span class="badge">148</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('properties')">
+        <span class="icon">📍</span> Properties <span class="badge">89</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('items')">
+        <span class="icon">📦</span> Items / Services <span class="badge">—</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('trades')">
+        <span class="icon">⚡</span> Trades <span class="badge">39</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('company')">
+        <span class="icon">🏢</span> Company
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-section-label">App Data</div>
+      <div class="sidebar-item" onclick="showView('app-calexp5')">
+        <span class="icon">📅</span> CalExp5 <span class="badge">5</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('app-tsexp5')">
+        <span class="icon">⏱</span> TS_Exp5 <span class="badge">3</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('app-revexp5')">
+        <span class="icon">💰</span> RevExp5 <span class="badge">2</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('app-projexp5')">
+        <span class="icon">📐</span> PorjExp5 <span class="badge">3</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('app-docengine')">
+        <span class="icon">📄</span> BB-DocEngine <span class="badge">3</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('app-invval')">
+        <span class="icon">✅</span> Invoice Val. <span class="badge">4</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('app-gsreceipts')">
+        <span class="icon">🧾</span> GS_Receipts <span class="badge">0</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('app-chase')">
+        <span class="icon">💳</span> Chase Exp. <span class="badge">1</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('app-esigner')">
+        <span class="icon">✍</span> Adobe eSigner <span class="badge">3</span>
+      </div>
+      <div class="sidebar-item" onclick="showView('app-landfill')">
+        <span class="icon">🗑</span> Landfill <span class="badge">1</span>
+      </div>
+    </div>
+
+    <div class="sidebar-footer">
+      <div class="sidebar-item" onclick="showView('sync')">
+        <span class="icon">🔄</span> Sync Status
+      </div>
+      <div class="sidebar-item" onclick="showView('settings')">
+        <span class="icon">⚙</span> Settings
+      </div>
+    </div>
+  </nav>
+
+  <!-- ═══ MAIN CONTENT ═══ -->
+  <div class="main">
+
+    <!-- ════════════ EMPLOYEES VIEW ════════════ -->
+    <div id="view-employees" class="view-flex active">
+      <div class="header">
+        <h2>Employees</h2>
+        <div class="sync-badge">
+          <span class="sync-dot"></span> QBO synced 2h ago · QBT synced 2h ago
+        </div>
+        <div class="header-actions">
+          <button class="btn">Export</button>
+          <button class="btn btn-primary">+ Add Employee</button>
+        </div>
+      </div>
+
+      <div class="stats-ribbon">
+        <div class="stat"><span class="stat-value">12</span> active</div>
+        <div class="stat"><span class="stat-value">8</span> inactive</div>
+        <div class="stat"><span class="stat-value">28</span> enrichment fields</div>
+        <div class="stat">
+          <span class="stat-value">72%</span> filled
+          <span class="filled-bar"><span class="filled-bar-inner" style="width:72%"></span></span>
+        </div>
+      </div>
+
+      <div class="toolbar">
+        <input type="text" class="search-input" placeholder="Search employees... (⌘K)">
+        <select class="filter-select">
+          <option>All Status</option>
+          <option selected>Active Only</option>
+          <option>Inactive Only</option>
+        </select>
+        <select class="filter-select">
+          <option selected>Core + Enrichment</option>
+          <option>Core Fields Only</option>
+          <option>Enrichment Only</option>
+        </select>
+      </div>
+
+      <div class="content">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th style="width:32px"></th>
+              <th>Name</th>
+              <th>QBO ID</th>
+              <th>QBT ID</th>
+              <th>Email</th>
+              <th>Status</th>
+              <th>Hire Date</th>
+              <th style="min-width:140px">Enrichment Filled</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Evan - Expanded -->
+            <tr class="expanded" onclick="toggleDetail('evan')">
+              <td><button class="expand-btn">▼</button></td>
+              <td><strong>Evan Bainbridge</strong></td>
+              <td class="id-cell id-matched">6</td>
+              <td class="id-cell id-matched">3194176</td>
+              <td>evan@bainbridgebuilders.com</td>
+              <td><span class="status-dot active"></span>Active</td>
+              <td>2019-03-15</td>
+              <td>
+                <div class="filled-cell pct-high">
+                  <span class="pct">89%</span>
+                  <div class="bar"><div class="bar-inner" style="width:89%"></div></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="detail-row" id="detail-evan">
+              <td colspan="8">
+                <div class="detail-panel">
+                  <div class="detail-section">
+                    <h4>Core Fields <span class="lock-icon">🔒 QBO-synced</span></h4>
+                    <div class="detail-field"><span class="label">Display Name</span> <span class="value">Evan Bainbridge</span></div>
+                    <div class="detail-field"><span class="label">First Name</span> <span class="value">Evan</span></div>
+                    <div class="detail-field"><span class="label">Last Name</span> <span class="value">Bainbridge</span></div>
+                    <div class="detail-field"><span class="label">Email</span> <span class="value">evan@bainbridgebuilders.com</span></div>
+                    <div class="detail-field"><span class="label">Phone</span> <span class="value">(408) 781-2364</span></div>
+                    <div class="detail-field"><span class="label">Hire Date</span> <span class="value">2019-03-15</span></div>
+                    <div class="detail-field"><span class="label">Active</span> <span class="value">✓ Yes</span></div>
+                    <div class="detail-field"><span class="label">Salaried</span> <span class="value">✗ No</span></div>
+                    <div class="detail-field"><span class="label">QBO Sync</span> <span class="value" style="color:var(--bb-green)">● 2h ago</span></div>
+                    <div class="detail-field"><span class="label">QBT Sync</span> <span class="value" style="color:var(--bb-green)">● 2h ago</span></div>
+                  </div>
+                  <div class="detail-section">
+                    <h4>Enrichment <span style="font-weight:400;color:var(--bb-gray-400)">(25/28 filled)</span></h4>
+                    <div class="detail-field"><span class="label">alias</span> <span class="value editable">Evan</span> <span class="app-badge ts">TS</span></div>
+                    <div class="detail-field"><span class="label">payRate</span> <span class="value editable">$70.00</span> <span class="app-badge ts">TS</span></div>
+                    <div class="detail-field"><span class="label">billRate</span> <span class="value editable">$85.00</span> <span class="app-badge ts">TS</span></div>
+                    <div class="detail-field"><span class="label">costRate</span> <span class="value editable">$70.00</span> <span class="app-badge rev">REV</span></div>
+                    <div class="detail-field"><span class="label">payType</span> <span class="value editable">regular</span> <span class="app-badge ts">TS</span></div>
+                    <div class="detail-field"><span class="label">defaultCrew</span> <span class="value editable">A</span> <span class="app-badge cal">CAL</span></div>
+                    <div class="detail-field"><span class="label">cardLast4</span> <span class="value editable">2145</span> <span class="app-badge chase">CHS</span></div>
+                    <div class="detail-field"><span class="label">role</span> <span class="value editable">owner</span> <span class="app-badge all">ALL</span></div>
+                    <div class="detail-field"><span class="label">workDays</span> <span class="value editable">Mon-Fri</span> <span class="app-badge ts">TS</span></div>
+                    <div class="detail-field"><span class="label">workStartTime</span> <span class="value editable">07:30</span> <span class="app-badge ts">TS</span></div>
+                    <div class="detail-field"><span class="label">lunchRequired</span> <span class="value editable">✓</span> <span class="app-badge ts">TS</span></div>
+                    <div class="detail-field"><span class="label">lunchDuration</span> <span class="value editable">30 min</span> <span class="app-badge ts">TS</span></div>
+                    <div class="detail-field" style="color:var(--bb-gray-400);font-style:italic"><span class="label">+ 13 more fields...</span></div>
+                  </div>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Chad -->
+            <tr onclick="toggleDetail('chad')">
+              <td><button class="expand-btn">▶</button></td>
+              <td><strong>Chad Buthker</strong></td>
+              <td class="id-cell id-matched">12</td>
+              <td class="id-cell id-matched">3211846</td>
+              <td>chad@bainbridgebuilders.com</td>
+              <td><span class="status-dot active"></span>Active</td>
+              <td>2020-06-01</td>
+              <td>
+                <div class="filled-cell pct-mid">
+                  <span class="pct">75%</span>
+                  <div class="bar"><div class="bar-inner" style="width:75%"></div></div>
+                </div>
+              </td>
+            </tr>
+            <tr class="detail-row" id="detail-chad" style="display:none"><td colspan="8"></td></tr>
+
+            <!-- Christian -->
+            <tr>
+              <td><button class="expand-btn">▶</button></td>
+              <td><strong>Christian Incze</strong></td>
+              <td class="id-cell id-matched">14</td>
+              <td class="id-cell id-matched">3222041</td>
+              <td>christian@bb.com</td>
+              <td><span class="status-dot active"></span>Active</td>
+              <td>2021-01-15</td>
+              <td>
+                <div class="filled-cell pct-mid">
+                  <span class="pct">71%</span>
+                  <div class="bar"><div class="bar-inner" style="width:71%"></div></div>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Felipe -->
+            <tr>
+              <td><button class="expand-btn">▶</button></td>
+              <td><strong>Felipe Sandoval</strong></td>
+              <td class="id-cell id-matched">18</td>
+              <td class="id-cell id-matched">3240155</td>
+              <td>—</td>
+              <td><span class="status-dot active"></span>Active</td>
+              <td>2020-09-01</td>
+              <td>
+                <div class="filled-cell pct-mid">
+                  <span class="pct">68%</span>
+                  <div class="bar"><div class="bar-inner" style="width:68%"></div></div>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Matt -->
+            <tr>
+              <td><button class="expand-btn">▶</button></td>
+              <td><strong>Matt Miguel</strong></td>
+              <td class="id-cell id-matched">22</td>
+              <td class="id-cell id-matched">3250102</td>
+              <td>matt@bb.com</td>
+              <td><span class="status-dot active"></span>Active</td>
+              <td>2021-04-15</td>
+              <td>
+                <div class="filled-cell pct-mid">
+                  <span class="pct">64%</span>
+                  <div class="bar"><div class="bar-inner" style="width:64%"></div></div>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Ross -->
+            <tr>
+              <td><button class="expand-btn">▶</button></td>
+              <td><strong>Ross Bainbridge</strong></td>
+              <td class="id-cell id-matched">8</td>
+              <td class="id-cell id-matched">3195500</td>
+              <td>ross@bb.com</td>
+              <td><span class="status-dot active"></span>Active</td>
+              <td>2022-01-10</td>
+              <td>
+                <div class="filled-cell pct-mid">
+                  <span class="pct">61%</span>
+                  <div class="bar"><div class="bar-inner" style="width:61%"></div></div>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Clay -->
+            <tr>
+              <td><button class="expand-btn">▶</button></td>
+              <td><strong>Clay Anderson</strong></td>
+              <td class="id-cell id-matched">24</td>
+              <td class="id-cell id-matched">3261000</td>
+              <td>—</td>
+              <td><span class="status-dot active"></span>Active</td>
+              <td>2022-06-01</td>
+              <td>
+                <div class="filled-cell pct-mid">
+                  <span class="pct">57%</span>
+                  <div class="bar"><div class="bar-inner" style="width:57%"></div></div>
+                </div>
+              </td>
+            </tr>
+
+            <!-- Aiden - low enrichment -->
+            <tr>
+              <td><button class="expand-btn">▶</button></td>
+              <td><strong>Aiden Dugan-Roy</strong></td>
+              <td class="id-cell id-matched">30</td>
+              <td class="id-cell id-matched">3280011</td>
+              <td>—</td>
+              <td><span class="status-dot active"></span>Active</td>
+              <td>2024-08-15</td>
+              <td>
+                <div class="filled-cell pct-low">
+                  <span class="pct">32%</span>
+                  <div class="bar"><div class="bar-inner" style="width:32%"></div></div>
+                </div>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- ════════════ APP DATA: CalExp5 ════════════ -->
+    <div id="view-app-calexp5" class="view">
+      <div class="header">
+        <h2>CalExp5 — App Data</h2>
+        <div class="sync-badge">
+          <span class="sync-dot"></span> Last write: 35 min ago
+        </div>
+      </div>
+
+      <div class="app-data-view">
+        <div class="app-data-header">
+          <div class="app-stat-card">
+            <div class="card-label">Tables</div>
+            <div class="card-value">5</div>
+            <div class="card-sub">Compartment 2</div>
+          </div>
+          <div class="app-stat-card">
+            <div class="card-label">Total Rows</div>
+            <div class="card-value">12,847</div>
+            <div class="card-sub">across all tables</div>
+          </div>
+          <div class="app-stat-card">
+            <div class="card-label">Storage</div>
+            <div class="card-value">6.2 MB</div>
+            <div class="card-sub">of 512 MB free tier</div>
+          </div>
+          <div class="app-stat-card">
+            <div class="card-label">Enrichment Fields</div>
+            <div class="card-value">4</div>
+            <div class="card-sub">subscribed</div>
+          </div>
+        </div>
+
+        <div class="tab-bar">
+          <button class="tab-btn active">Schema</button>
+          <button class="tab-btn">Data</button>
+          <button class="tab-btn">Settings</button>
+          <button class="tab-btn">Enrichment Usage</button>
+        </div>
+
+        <!-- Schema View -->
+        <div class="schema-table" style="margin-bottom:12px">
+          <div class="schema-table-header">
+            <h3>cal_manual_hours</h3>
+            <div class="schema-table-meta">
+              <span>4,821 rows</span>
+              <span>2.1 MB</span>
+            </div>
+          </div>
+          <div class="schema-cols">
+            <div class="schema-col"><span class="col-name">id</span><span class="col-type">text</span><span class="col-badge pk">PK</span></div>
+            <div class="schema-col"><span class="col-name">user_id</span><span class="col-type">text</span><span class="col-badge fk">FK → employees</span></div>
+            <div class="schema-col"><span class="col-name">date</span><span class="col-type">date</span><span class="col-note">NOT NULL</span></div>
+            <div class="schema-col"><span class="col-name">jobcode_id</span><span class="col-type">text</span><span class="col-badge fk">FK → work_jobcodes</span></div>
+            <div class="schema-col"><span class="col-name">hours</span><span class="col-type">float</span><span class="col-note">NOT NULL</span></div>
+            <div class="schema-col"><span class="col-name">details</span><span class="col-type">jsonb</span><span class="col-note">{ entryMode, notes, segments[] }</span></div>
+            <div class="schema-col"><span class="col-name">version</span><span class="col-type">integer</span><span class="col-note">default: 1</span></div>
+            <div class="schema-col"><span class="col-name">created_at</span><span class="col-type">timestamp</span></div>
+            <div class="schema-col"><span class="col-name">updated_at</span><span class="col-type">timestamp</span></div>
+          </div>
+        </div>
+
+        <div class="schema-table" style="margin-bottom:12px">
+          <div class="schema-table-header">
+            <h3>cal_selected_jobcodes</h3>
+            <div class="schema-table-meta">
+              <span>156 rows</span>
+              <span>24 KB</span>
+            </div>
+          </div>
+          <div class="schema-cols">
+            <div class="schema-col"><span class="col-name">id</span><span class="col-type">text</span><span class="col-badge pk">PK</span></div>
+            <div class="schema-col"><span class="col-name">user_id</span><span class="col-type">text</span><span class="col-badge fk">FK → employees</span></div>
+            <div class="schema-col"><span class="col-name">jobcode_id</span><span class="col-type">text</span><span class="col-badge fk">FK → work_jobcodes</span></div>
+            <div class="schema-col"><span class="col-name">color</span><span class="col-type">text</span><span class="col-note">hex color (#FF6600)</span></div>
+            <div class="schema-col"><span class="col-name">sort_order</span><span class="col-type">integer</span><span class="col-note">default: 0</span></div>
+            <div class="schema-col"><span class="col-name">created_at</span><span class="col-type">timestamp</span></div>
+          </div>
+        </div>
+
+        <div class="schema-table" style="margin-bottom:12px">
+          <div class="schema-table-header">
+            <h3>cal_uploaded_timesheets</h3>
+            <div class="schema-table-meta">
+              <span>5,102 rows</span>
+              <span>1.8 MB</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="schema-table" style="margin-bottom:12px">
+          <div class="schema-table-header">
+            <h3>cal_user_settings</h3>
+            <div class="schema-table-meta">
+              <span>12 rows</span>
+              <span>8 KB</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="schema-table">
+          <div class="schema-table-header">
+            <h3>cal_audit_log</h3>
+            <div class="schema-table-meta">
+              <span>2,756 rows</span>
+              <span>2.3 MB</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════ SYNC STATUS VIEW ════════════ -->
+    <div id="view-sync" class="view">
+      <div class="header">
+        <h2>Sync Status</h2>
+        <div class="header-actions">
+          <button class="btn btn-primary">Sync Now</button>
+        </div>
+      </div>
+
+      <div class="sync-view">
+        <div class="sync-card">
+          <div class="sync-card-header">
+            <span class="sync-dot"></span>
+            <h3>QuickBooks Online (QBO)</h3>
+            <span style="margin-left:auto;font-size:11px;color:var(--bb-gray-500)">Last: 09:15:00 · Next: 09:30:00</span>
+          </div>
+          <div class="sync-card-body">
+            <div class="sync-entity-row">
+              <span class="sync-entity-name">Customers</span>
+              <span class="sync-entity-count">142 records</span>
+              <span class="sync-entity-changes">0 changes</span>
+              <span class="sync-dot" style="margin-left:auto"></span>
+            </div>
+            <div class="sync-entity-row">
+              <span class="sync-entity-name">Vendors</span>
+              <span class="sync-entity-count">287 records</span>
+              <span class="sync-entity-changes" style="color:var(--bb-blue);font-weight:500">2 updated</span>
+              <span class="sync-dot" style="margin-left:auto"></span>
+            </div>
+            <div class="sync-entity-row">
+              <span class="sync-entity-name">Employees</span>
+              <span class="sync-entity-count">20 records</span>
+              <span class="sync-entity-changes">0 changes</span>
+              <span class="sync-dot" style="margin-left:auto"></span>
+            </div>
+            <div class="sync-entity-row">
+              <span class="sync-entity-name">Items</span>
+              <span class="sync-entity-count">—</span>
+              <span class="sync-entity-changes" style="color:var(--bb-gray-400);font-style:italic">not synced</span>
+              <span class="sync-dot inactive" style="margin-left:auto"></span>
+            </div>
+            <div class="sync-entity-row">
+              <span class="sync-entity-name">Accounts</span>
+              <span class="sync-entity-count">—</span>
+              <span class="sync-entity-changes" style="color:var(--bb-gray-400);font-style:italic">not synced</span>
+              <span class="sync-dot inactive" style="margin-left:auto"></span>
+            </div>
+            <div class="sync-entity-row">
+              <span class="sync-entity-name">Terms</span>
+              <span class="sync-entity-count">—</span>
+              <span class="sync-entity-changes" style="color:var(--bb-gray-400);font-style:italic">not synced</span>
+              <span class="sync-dot inactive" style="margin-left:auto"></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="sync-card">
+          <div class="sync-card-header">
+            <span class="sync-dot"></span>
+            <h3>QuickBooks Time (QBT)</h3>
+            <span style="margin-left:auto;font-size:11px;color:var(--bb-gray-500)">Last: 09:15:01 · Next: 09:30:01</span>
+          </div>
+          <div class="sync-card-body">
+            <div class="sync-entity-row">
+              <span class="sync-entity-name">Users</span>
+              <span class="sync-entity-count">20 records</span>
+              <span class="sync-entity-changes">0 changes</span>
+              <span class="sync-dot" style="margin-left:auto"></span>
+            </div>
+            <div class="sync-entity-row">
+              <span class="sync-entity-name">Jobcodes</span>
+              <span class="sync-entity-count">148 records</span>
+              <span class="sync-entity-changes" style="color:var(--bb-blue);font-weight:500">1 updated</span>
+              <span class="sync-dot" style="margin-left:auto"></span>
+            </div>
+            <div class="sync-entity-row">
+              <span class="sync-entity-name">Groups</span>
+              <span class="sync-entity-count">—</span>
+              <span class="sync-entity-changes" style="color:var(--bb-gray-400);font-style:italic">not synced</span>
+              <span class="sync-dot inactive" style="margin-left:auto"></span>
+            </div>
+            <div class="sync-entity-row">
+              <span class="sync-entity-name">Jobcode Assignments</span>
+              <span class="sync-entity-count">—</span>
+              <span class="sync-entity-changes" style="color:var(--bb-gray-400);font-style:italic">not synced</span>
+              <span class="sync-dot inactive" style="margin-left:auto"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ════════════ PLACEHOLDER VIEWS ════════════ -->
+    <div id="view-customers" class="view">
+      <div class="header"><h2>Customers</h2><div class="sync-badge"><span class="sync-dot"></span> QBO synced 2h ago</div></div>
+      <div class="stats-ribbon">
+        <div class="stat"><span class="stat-value">118</span> active</div>
+        <div class="stat"><span class="stat-value">24</span> inactive</div>
+        <div class="stat"><span class="stat-value">6</span> enrichment fields</div>
+        <div class="stat"><span class="stat-value">34%</span> filled <span class="filled-bar"><span class="filled-bar-inner" style="width:34%"></span></span></div>
+      </div>
+      <div style="padding:40px;text-align:center;color:var(--bb-gray-400)">
+        <p style="font-size:48px;margin-bottom:12px">🏠</p>
+        <p>Customer grid with sub-customer tree view, property links, and QBO sync status.</p>
+        <p style="margin-top:8px;font-size:11px">Same grid pattern as Employees — with parent/sub-customer hierarchy expansion.</p>
+      </div>
+    </div>
+
+    <div id="view-vendors" class="view">
+      <div class="header"><h2>Vendors</h2><div class="sync-badge"><span class="sync-dot"></span> QBO synced 2h ago</div></div>
+      <div class="stats-ribbon">
+        <div class="stat"><span class="stat-value">245</span> active</div>
+        <div class="stat"><span class="stat-value">42</span> inactive</div>
+        <div class="stat"><span class="stat-value">12</span> enrichment fields</div>
+        <div class="stat"><span class="stat-value">28%</span> filled <span class="filled-bar"><span class="filled-bar-inner" style="width:28%"></span></span></div>
+      </div>
+      <div style="padding:40px;text-align:center;color:var(--bb-gray-400)">
+        <p style="font-size:48px;margin-bottom:12px">🔧</p>
+        <p>Vendor grid with pipeline status (QBO → Supplier → Sub/VendorDir), alias maps, and trade assignments.</p>
+        <p style="margin-top:8px;font-size:11px">Visual pipeline indicator per vendor. Expandable alias lookup for GS_Receipts.</p>
+      </div>
+    </div>
+
+    <div id="view-jobcodes" class="view">
+      <div class="header"><h2>Jobcodes</h2><div class="sync-badge"><span class="sync-dot"></span> QBT synced 2h ago</div></div>
+      <div class="stats-ribbon">
+        <div class="stat"><span class="stat-value">78</span> active</div>
+        <div class="stat"><span class="stat-value">70</span> inactive</div>
+        <div class="stat"><span class="stat-value">12</span> enrichment fields</div>
+        <div class="stat"><span class="stat-value">15%</span> filled <span class="filled-bar"><span class="filled-bar-inner" style="width:15%"></span></span></div>
+      </div>
+      <div style="padding:40px;text-align:center;color:var(--bb-gray-400)">
+        <p style="font-size:48px;margin-bottom:12px">📋</p>
+        <p>Jobcode grid with parent/child hierarchy tree, type badges (regular/pto/break), and special jobcode stars.</p>
+        <p style="margin-top:8px;font-size:11px">QBT-only entity. Hardcoded IDs (Lunch, Sick, Vacation, Unpaid, Shop) get ★ badges.</p>
+      </div>
+    </div>
+
+    <div id="view-properties" class="view">
+      <div class="header"><h2>Properties</h2><div class="sync-badge"><span class="sync-dot"></span> Geocoded</div></div>
+      <div style="padding:40px;text-align:center;color:var(--bb-gray-400)">
+        <p style="font-size:48px;margin-bottom:12px">📍</p>
+        <p>Property grid with geocode status, Zillow/Redfin links, and Google Maps embed toggle.</p>
+      </div>
+    </div>
+
+    <div id="view-items" class="view">
+      <div class="header"><h2>Items / Services</h2><div class="sync-badge"><span class="sync-dot inactive"></span> Not yet synced</div></div>
+      <div style="padding:40px;text-align:center;color:var(--bb-gray-400)">
+        <p style="font-size:48px;margin-bottom:12px">📦</p>
+        <p><strong>Deferred entity.</strong> QBO Items API sync will be enabled during DB-7 phase.</p>
+        <p style="margin-top:8px"><button class="btn" disabled>Enable Sync (DB-7)</button></p>
+      </div>
+    </div>
+
+    <div id="view-trades" class="view">
+      <div class="header"><h2>Trades</h2></div>
+      <div style="padding:40px;text-align:center;color:var(--bb-gray-400)">
+        <p style="font-size:48px;margin-bottom:12px">⚡</p>
+        <p>Editable lookup table — 39 trade values with aliases and auto-detect patterns.</p>
+      </div>
+    </div>
+
+    <div id="view-company" class="view">
+      <div class="header"><h2>Company</h2></div>
+      <div style="padding:40px;text-align:center;color:var(--bb-gray-400)">
+        <p style="font-size:48px;margin-bottom:12px">🏢</p>
+        <p>Single-record company profile: Bainbridge Builders Inc., officers, QBO realm, contact info.</p>
+      </div>
+    </div>
+
+    <!-- App data placeholder views -->
+    <div id="view-app-tsexp5" class="view">
+      <div class="header"><h2>TS_Exp5 — App Data</h2></div>
+      <div class="app-data-view"><div class="app-data-header">
+        <div class="app-stat-card"><div class="card-label">Tables</div><div class="card-value">3</div></div>
+        <div class="app-stat-card"><div class="card-label">Total Rows</div><div class="card-value">~312</div></div>
+        <div class="app-stat-card"><div class="card-label">Storage</div><div class="card-value">10 MB</div></div>
+        <div class="app-stat-card"><div class="card-label">Enrichment</div><div class="card-value">18</div><div class="card-sub">fields subscribed</div></div>
+      </div><p style="color:var(--bb-gray-400);text-align:center;padding:20px">ts_timesheet_snapshots · ts_pay_periods · ts_auto_lunch_runs</p></div>
+    </div>
+
+    <div id="view-app-revexp5" class="view"><div class="header"><h2>RevExp5 — App Data</h2></div><div class="app-data-view"><div class="app-data-header"><div class="app-stat-card"><div class="card-label">Tables</div><div class="card-value">2</div></div><div class="app-stat-card"><div class="card-label">Total Rows</div><div class="card-value">~46</div></div><div class="app-stat-card"><div class="card-label">Storage</div><div class="card-value">10 MB</div></div></div><p style="color:var(--bb-gray-400);text-align:center;padding:20px">rev_cycle_snapshots · rev_estimates</p></div></div>
+
+    <div id="view-app-projexp5" class="view"><div class="header"><h2>PorjExp5 — App Data</h2></div><div class="app-data-view"><div class="app-data-header"><div class="app-stat-card"><div class="card-label">Tables</div><div class="card-value">3</div></div><div class="app-stat-card"><div class="card-label">Total Rows</div><div class="card-value">~100</div></div><div class="app-stat-card"><div class="card-label">Storage</div><div class="card-value">15 MB</div></div></div><p style="color:var(--bb-gray-400);text-align:center;padding:20px">proj_estimate_templates · proj_projects · proj_supplier_ignore_list</p></div></div>
+
+    <div id="view-app-docengine" class="view"><div class="header"><h2>BB-DocEngine — App Data</h2></div><div class="app-data-view"><div class="app-data-header"><div class="app-stat-card"><div class="card-label">Tables</div><div class="card-value">3</div></div><div class="app-stat-card"><div class="card-label">Total Rows</div><div class="card-value">~240</div></div><div class="app-stat-card"><div class="card-label">Storage</div><div class="card-value">5 MB</div></div></div><p style="color:var(--bb-gray-400);text-align:center;padding:20px">doc_contracts · doc_estimate_templates · doc_qbo_notes_backup</p></div></div>
+
+    <div id="view-app-invval" class="view"><div class="header"><h2>Invoice Validate — App Data</h2></div><div class="app-data-view"><div class="app-data-header"><div class="app-stat-card"><div class="card-label">Tables</div><div class="card-value">4</div></div><div class="app-stat-card"><div class="card-label">Total Rows</div><div class="card-value">~1,096</div></div><div class="app-stat-card"><div class="card-label">Storage</div><div class="card-value">8 MB</div></div></div><p style="color:var(--bb-gray-400);text-align:center;padding:20px">inv_validation_runs · inv_validation_checks · inv_receipt_matches · inv_validation_suppressions</p></div></div>
+
+    <div id="view-app-gsreceipts" class="view"><div class="header"><h2>GS_Receipts — App Data</h2></div><div class="app-data-view"><div class="app-data-header"><div class="app-stat-card"><div class="card-label">Tables</div><div class="card-value">0</div><div class="card-sub">Lives in Google Sheets</div></div><div class="app-stat-card"><div class="card-label">Aliases</div><div class="card-value">~120</div><div class="card-sub">in C1 enrichment</div></div></div><p style="color:var(--bb-gray-400);text-align:center;padding:20px">No Neon tables — processing stays in Google Sheets. Aliases migrate to vendors.enrichment + jobcodes.enrichment.</p></div></div>
+
+    <div id="view-app-chase" class="view"><div class="header"><h2>Chase Expense — App Data</h2></div><div class="app-data-view"><div class="app-data-header"><div class="app-stat-card"><div class="card-label">Tables</div><div class="card-value">1</div></div><div class="app-stat-card"><div class="card-label">Total Rows</div><div class="card-value">~50</div></div><div class="app-stat-card"><div class="card-label">Storage</div><div class="card-value">5 MB</div></div></div><p style="color:var(--bb-gray-400);text-align:center;padding:20px">chase_validation_sessions</p></div></div>
+
+    <div id="view-app-esigner" class="view"><div class="header"><h2>Adobe eSigner — App Data</h2></div><div class="app-data-view"><div class="app-data-header"><div class="app-stat-card"><div class="card-label">Tables</div><div class="card-value">3</div></div><div class="app-stat-card"><div class="card-label">Total Rows</div><div class="card-value">~50</div></div><div class="app-stat-card"><div class="card-label">Storage</div><div class="card-value">3 MB</div></div></div><p style="color:var(--bb-gray-400);text-align:center;padding:20px">esign_agreements · esign_overlay_registry · esign_signers</p></div></div>
+
+    <div id="view-app-landfill" class="view"><div class="header"><h2>Landfill Surcharge — App Data</h2></div><div class="app-data-view"><div class="app-data-header"><div class="app-stat-card"><div class="card-label">Tables</div><div class="card-value">1</div></div><div class="app-stat-card"><div class="card-label">Total Rows</div><div class="card-value">~26</div></div><div class="app-stat-card"><div class="card-label">Storage</div><div class="card-value">2 MB</div></div></div><p style="color:var(--bb-gray-400);text-align:center;padding:20px">lf_surcharge_calculations</p></div></div>
+
+    <div id="view-settings" class="view"><div class="header"><h2>Settings</h2></div><div style="padding:40px;text-align:center;color:var(--bb-gray-400)"><p style="font-size:48px;margin-bottom:12px">⚙</p><p>Sync frequency, Neon connection, enrichment registry management, audit log viewer.</p></div></div>
+
+  </div>
+</div>
+
+<script>
+  function showView(viewId) {
+    // Hide all views
+    document.querySelectorAll('.view, .view-flex').forEach(v => v.classList.remove('active'));
+    // Show target
+    const target = document.getElementById('view-' + viewId);
+    if (target) target.classList.add('active');
+    // Update sidebar
+    document.querySelectorAll('.sidebar-item').forEach(i => i.classList.remove('active'));
+    event.currentTarget.classList.add('active');
+  }
+
+  function toggleDetail(id) {
+    const row = document.getElementById('detail-' + id);
+    if (row) {
+      const isHidden = row.style.display === 'none';
+      row.style.display = isHidden ? '' : 'none';
+    }
+  }
+</script>
+
+</body>
+</html>

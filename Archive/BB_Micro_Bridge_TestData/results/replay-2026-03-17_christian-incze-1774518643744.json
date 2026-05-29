@@ -1,0 +1,243 @@
+{
+  "scenario": "2026-03-17_christian-incze.json",
+  "meta": {
+    "employeeId": "EMP-180",
+    "qbtUserId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-25",
+    "originalDate": "2026-03-17",
+    "dayOfWeek": "Wednesday",
+    "deviceId": "sim-6153134",
+    "totalHours": 8,
+    "entryCount": 5,
+    "pingCount": 263,
+    "qbtEntries": [
+      {
+        "timesheetId": 291936128,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 2,
+        "durationSeconds": 7200,
+        "start": "2026-03-17T08:00:00-07:00",
+        "end": "2026-03-17T10:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 292237176,
+        "jobcodeId": 175345050,
+        "jobcodeName": "Duckworth",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1.5,
+        "durationSeconds": 5400,
+        "start": "2026-03-17T10:00:00-07:00",
+        "end": "2026-03-17T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 292016844,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-17T11:30:00-07:00",
+        "end": "2026-03-17T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 292237204,
+        "jobcodeId": 175345050,
+        "jobcodeName": "Duckworth",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 2.25,
+        "durationSeconds": 8100,
+        "start": "2026-03-17T12:00:00-07:00",
+        "end": "2026-03-17T14:15:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 292017268,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 1.75,
+        "durationSeconds": 6300,
+        "start": "2026-03-17T14:15:00-07:00",
+        "end": "2026-03-17T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316,
+        "start": "2026-03-17T08:00:00-07:00",
+        "end": "2026-03-17T10:00:00-07:00",
+        "hours": 2
+      },
+      {
+        "name": "Duckworth",
+        "propertyId": "PROP-00013",
+        "lat": 36.992582,
+        "lng": -121.9376985,
+        "start": "2026-03-17T10:00:00-07:00",
+        "end": "2026-03-17T11:30:00-07:00",
+        "hours": 1.5
+      },
+      {
+        "name": "Duckworth",
+        "propertyId": "PROP-00013",
+        "lat": 36.992582,
+        "lng": -121.9376985,
+        "start": "2026-03-17T12:00:00-07:00",
+        "end": "2026-03-17T14:15:00-07:00",
+        "hours": 2.25
+      },
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316,
+        "start": "2026-03-17T14:15:00-07:00",
+        "end": "2026-03-17T16:00:00-07:00",
+        "hours": 1.75
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:50:43.744Z",
+  "mode": "fast",
+  "drafts": [
+    {
+      "id": "10909d0a-dabb-4f5b-bcf1-83820650f481",
+      "date": "2026-03-25T07:00:00.000Z",
+      "property_id": "PROP-00015",
+      "hours": 7.98,
+      "arrive_time": "2026-03-25T15:00:00.000Z",
+      "depart_time": "2026-03-25T22:59:00.000Z",
+      "dwell_minutes": 479,
+      "confidence": 0.95,
+      "status": "pending_review",
+      "poi_type": "jobsite",
+      "poi_name": "112 Westmoor Ct.",
+      "has_offline_gap": true,
+      "adjusted_arrive_time": null,
+      "adjusted_depart_time": null,
+      "adjusted_hours": null,
+      "adjustment_note": null,
+      "adjustment_source": null,
+      "jobcode_id": null,
+      "reviewed_at": null,
+      "approved_at": null,
+      "qbt_timesheet_id": null,
+      "metadata": {
+        "type": "jobsite",
+        "shape": "circular",
+        "pingCount": 110
+      }
+    },
+    {
+      "id": "5ea91b96-03d1-402f-bbc6-83ca43c1cf76",
+      "date": "2026-03-25T07:00:00.000Z",
+      "property_id": "PROP-00013",
+      "hours": 4.2,
+      "arrive_time": "2026-03-25T17:02:00.000Z",
+      "depart_time": "2026-03-25T21:14:00.000Z",
+      "dwell_minutes": 252,
+      "confidence": 0.95,
+      "status": "pending_review",
+      "poi_type": "jobsite",
+      "poi_name": "3457 Maplethorpe Ln",
+      "has_offline_gap": false,
+      "adjusted_arrive_time": null,
+      "adjusted_depart_time": null,
+      "adjusted_hours": null,
+      "adjustment_note": null,
+      "adjustment_source": null,
+      "jobcode_id": null,
+      "reviewed_at": null,
+      "approved_at": null,
+      "qbt_timesheet_id": null,
+      "metadata": {
+        "type": "jobsite",
+        "shape": "circular",
+        "pingCount": 122
+      }
+    }
+  ],
+  "qbtEntries": [
+    {
+      "timesheetId": 291936128,
+      "jobcodeId": 171851070,
+      "jobcodeName": "Eklund",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 2,
+      "durationSeconds": 7200,
+      "start": "2026-03-17T08:00:00-07:00",
+      "end": "2026-03-17T10:00:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    },
+    {
+      "timesheetId": 292237176,
+      "jobcodeId": 175345050,
+      "jobcodeName": "Duckworth",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 1.5,
+      "durationSeconds": 5400,
+      "start": "2026-03-17T10:00:00-07:00",
+      "end": "2026-03-17T11:30:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    },
+    {
+      "timesheetId": 292016844,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-17T11:30:00-07:00",
+      "end": "2026-03-17T12:00:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    },
+    {
+      "timesheetId": 292237204,
+      "jobcodeId": 175345050,
+      "jobcodeName": "Duckworth",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 2.25,
+      "durationSeconds": 8100,
+      "start": "2026-03-17T12:00:00-07:00",
+      "end": "2026-03-17T14:15:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    },
+    {
+      "timesheetId": 292017268,
+      "jobcodeId": 171851070,
+      "jobcodeName": "Eklund",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 1.75,
+      "durationSeconds": 6300,
+      "start": "2026-03-17T14:15:00-07:00",
+      "end": "2026-03-17T16:00:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    }
+  ]
+}

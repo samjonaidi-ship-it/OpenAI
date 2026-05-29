@@ -1,0 +1,17 @@
+{
+  "scenario": "REAL_chad-321.json",
+  "meta": {
+    "employeeId": "EMP-1",
+    "employeeName": "Chad (real→3/21 Sat)",
+    "date": "2026-03-21",
+    "deviceId": "qbt-chad-321",
+    "pingCount": 97,
+    "qbtEntries": [],
+    "jobsites": [],
+    "source": "qbt-geolocations"
+  },
+  "replayedAt": "2026-03-26T21:15:23.005Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": []
+}

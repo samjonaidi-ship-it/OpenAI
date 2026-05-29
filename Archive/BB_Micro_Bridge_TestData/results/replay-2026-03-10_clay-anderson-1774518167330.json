@@ -1,0 +1,114 @@
+{
+  "scenario": "2026-03-10_clay-anderson.json",
+  "meta": {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "date": "2026-03-10",
+    "dayOfWeek": "Tuesday",
+    "deviceId": "sim-7021552",
+    "totalHours": 8.5,
+    "entryCount": 3,
+    "pingCount": 277,
+    "qbtEntries": [
+      {
+        "timesheetId": 290928464,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-10T08:00:00-07:00",
+        "end": "2026-03-10T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291036782,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-10T11:30:00-07:00",
+        "end": "2026-03-10T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      },
+      {
+        "timesheetId": 291036780,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.5,
+        "durationSeconds": 16200,
+        "start": "2026-03-10T12:00:00-07:00",
+        "end": "2026-03-10T16:30:00-07:00",
+        "type": "regular",
+        "notes": "Clay"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316,
+        "start": "2026-03-10T08:00:00-07:00",
+        "end": "2026-03-10T11:30:00-07:00",
+        "hours": 3.5
+      },
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316,
+        "start": "2026-03-10T12:00:00-07:00",
+        "end": "2026-03-10T16:30:00-07:00",
+        "hours": 4.5
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:42:47.330Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": [
+    {
+      "timesheetId": 290928464,
+      "jobcodeId": 171851070,
+      "jobcodeName": "Eklund",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 3.5,
+      "durationSeconds": 12600,
+      "start": "2026-03-10T08:00:00-07:00",
+      "end": "2026-03-10T11:30:00-07:00",
+      "type": "regular",
+      "notes": "Clay"
+    },
+    {
+      "timesheetId": 291036782,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-10T11:30:00-07:00",
+      "end": "2026-03-10T12:00:00-07:00",
+      "type": "regular",
+      "notes": "Clay"
+    },
+    {
+      "timesheetId": 291036780,
+      "jobcodeId": 171851070,
+      "jobcodeName": "Eklund",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 4.5,
+      "durationSeconds": 16200,
+      "start": "2026-03-10T12:00:00-07:00",
+      "end": "2026-03-10T16:30:00-07:00",
+      "type": "regular",
+      "notes": "Clay"
+    }
+  ]
+}

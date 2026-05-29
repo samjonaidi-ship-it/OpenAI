@@ -1,0 +1,52 @@
+{
+  "jobcodeToProperty": {
+    "Eklund": {
+      "propertyId": "PROP-00015",
+      "address": "112 Westmoor Ct., Santa Cruz",
+      "lat": 36.9764496,
+      "lng": -122.0525316,
+      "customerId": "CUST-373"
+    },
+    "Labe - Tait Ave.": {
+      "propertyId": "PROP-00031",
+      "address": "109 Tait Ave., Los Gatos",
+      "lat": 37.2257295,
+      "lng": -121.9851605,
+      "customerId": "CUST-430"
+    },
+    "Duckworth": {
+      "propertyId": "PROP-00013",
+      "address": "3457 Maplethorpe Ln, Soquel",
+      "lat": 36.992582,
+      "lng": -121.9376985,
+      "customerId": "CUST-395"
+    },
+    "Bainbridge": {
+      "propertyId": "PROP-00004",
+      "address": "805 University Ave., Los Gatos (BB Office)",
+      "lat": 37.2399969,
+      "lng": -121.9747139,
+      "customerId": "CUST-198"
+    }
+  },
+  "homeBase": {
+    "label": "Crew home area (central Los Gatos)",
+    "lat": 37.2394,
+    "lng": -121.9640
+  },
+  "lunchJobcodeId": 171969570,
+  "stores": {
+    "homedepot_campbell": {
+      "name": "Home Depot - Campbell",
+      "lat": 37.2870,
+      "lng": -121.9440,
+      "chain": "Home Depot"
+    },
+    "lowes_sanjose": {
+      "name": "Lowes - San Jose",
+      "lat": 37.2500,
+      "lng": -121.8730,
+      "chain": "Lowes"
+    }
+  }
+}

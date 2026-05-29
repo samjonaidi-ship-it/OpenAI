@@ -1,0 +1,17 @@
+{
+  "scenario": "FULL_ross-325.json",
+  "meta": {
+    "employeeId": "EMP-150",
+    "employeeName": "Ross (full day synthetic)",
+    "date": "2026-03-25",
+    "deviceId": "qbt-ross-fullday",
+    "pingCount": 835,
+    "qbtEntries": [],
+    "jobsites": [],
+    "source": "synthetic"
+  },
+  "replayedAt": "2026-03-26T23:43:56.291Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": []
+}

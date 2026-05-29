@@ -1,0 +1,114 @@
+{
+  "scenario": "2026-03-16_christian-incze.json",
+  "meta": {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-16",
+    "dayOfWeek": "Monday",
+    "deviceId": "sim-6153134",
+    "totalHours": 8,
+    "entryCount": 3,
+    "pingCount": 262,
+    "qbtEntries": [
+      {
+        "timesheetId": 291732224,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-16T08:00:00-07:00",
+        "end": "2026-03-16T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291850934,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-16T11:30:00-07:00",
+        "end": "2026-03-16T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 291850932,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-16T12:00:00-07:00",
+        "end": "2026-03-16T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316,
+        "start": "2026-03-16T08:00:00-07:00",
+        "end": "2026-03-16T11:30:00-07:00",
+        "hours": 3.5
+      },
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316,
+        "start": "2026-03-16T12:00:00-07:00",
+        "end": "2026-03-16T16:00:00-07:00",
+        "hours": 4
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:44:51.416Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": [
+    {
+      "timesheetId": 291732224,
+      "jobcodeId": 171851070,
+      "jobcodeName": "Eklund",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 3.5,
+      "durationSeconds": 12600,
+      "start": "2026-03-16T08:00:00-07:00",
+      "end": "2026-03-16T11:30:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    },
+    {
+      "timesheetId": 291850934,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-16T11:30:00-07:00",
+      "end": "2026-03-16T12:00:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    },
+    {
+      "timesheetId": 291850932,
+      "jobcodeId": 171851070,
+      "jobcodeName": "Eklund",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 4,
+      "durationSeconds": 14400,
+      "start": "2026-03-16T12:00:00-07:00",
+      "end": "2026-03-16T16:00:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    }
+  ]
+}

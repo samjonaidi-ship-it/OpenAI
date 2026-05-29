@@ -1,0 +1,114 @@
+{
+  "scenario": "2026-03-09_christian-incze.json",
+  "meta": {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "date": "2026-03-09",
+    "dayOfWeek": "Monday",
+    "deviceId": "sim-6153134",
+    "totalHours": 8.25,
+    "entryCount": 3,
+    "pingCount": 270,
+    "qbtEntries": [
+      {
+        "timesheetId": 290844318,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 290844346,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-09T11:30:00-07:00",
+        "end": "2026-03-09T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      },
+      {
+        "timesheetId": 290844344,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.25,
+        "durationSeconds": 15300,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:15:00-07:00",
+        "type": "regular",
+        "notes": "Christian"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "hours": 3.5
+      },
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:15:00-07:00",
+        "hours": 4.25
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:42:05.190Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": [
+    {
+      "timesheetId": 290844318,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 3.5,
+      "durationSeconds": 12600,
+      "start": "2026-03-09T08:00:00-07:00",
+      "end": "2026-03-09T11:30:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    },
+    {
+      "timesheetId": 290844346,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-09T11:30:00-07:00",
+      "end": "2026-03-09T12:00:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    },
+    {
+      "timesheetId": 290844344,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 4.25,
+      "durationSeconds": 15300,
+      "start": "2026-03-09T12:00:00-07:00",
+      "end": "2026-03-09T16:15:00-07:00",
+      "type": "regular",
+      "notes": "Christian"
+    }
+  ]
+}

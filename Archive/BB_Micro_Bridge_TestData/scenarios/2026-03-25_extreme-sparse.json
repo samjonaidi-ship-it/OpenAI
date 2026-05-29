@@ -1,0 +1,588 @@
+{
+  "meta": {
+    "employeeId": "EMP-228",
+    "employeeName": "SPARSE (unreliable GPS)",
+    "date": "2026-03-25",
+    "dayOfWeek": "Wednesday",
+    "deviceId": "sim-sparse",
+    "totalHours": 8,
+    "entryCount": 1,
+    "pingCount": 23,
+    "qbtEntries": [
+      {
+        "jobcodeName": "Eklund",
+        "hours": 8,
+        "start": "2026-03-25T16:00:00.000Z",
+        "end": "2026-03-25T23:00:00.000Z"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316
+      }
+    ],
+    "extreme": "sparse"
+  },
+  "batches": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05302559190635,
+              36.97637413196833,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T16:15:29.422Z",
+            "speed": 0.20942694624399327,
+            "horizontal_accuracy": 90.96547459234432,
+            "battery_level": 0.347,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05244434540101,
+              36.97585416421291,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T16:30:58.129Z",
+            "speed": 1.8517270165786355,
+            "horizontal_accuracy": 74.8254959659611,
+            "battery_level": 0.344,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05361903903359,
+              36.97469674941617,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T16:39:21.279Z",
+            "speed": 1.4821867203268497,
+            "horizontal_accuracy": 42.92567228186921,
+            "battery_level": 0.34099999999999997,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05286345507524,
+              36.976924477877816,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T16:57:34.973Z",
+            "speed": 1.7431123346120347,
+            "horizontal_accuracy": 85.97226492062063,
+            "battery_level": 0.33799999999999997,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.0517121388121,
+              36.976712314472465,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T17:06:45.189Z",
+            "speed": 50,
+            "horizontal_accuracy": 341.771242354116,
+            "battery_level": 0.33499999999999996,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.03264355110649,
+              36.98272122999367,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T17:21:34.392Z",
+            "speed": 50,
+            "horizontal_accuracy": 275.75212274083265,
+            "battery_level": 0.33199999999999996,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05270772238556,
+              36.97717049395584,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T17:40:13.565Z",
+            "speed": 0.4956370421126015,
+            "horizontal_accuracy": 61.67926304590515,
+            "battery_level": 0.32899999999999996,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05408266707347,
+              36.97851603763171,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T17:49:41.131Z",
+            "speed": 0.094511944580566,
+            "horizontal_accuracy": 50.6943224051564,
+            "battery_level": 0.32599999999999996,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05176127883735,
+              36.97107682824815,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T18:02:00.748Z",
+            "speed": 50,
+            "horizontal_accuracy": 157.24742889236367,
+            "battery_level": 0.32299999999999995,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05372166869756,
+              36.97659408605991,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T18:15:02.255Z",
+            "speed": 0.7626863113723363,
+            "horizontal_accuracy": 41.467078051105595,
+            "battery_level": 0.31999999999999995,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05199407482877,
+              36.9762146375608,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T18:39:09.906Z",
+            "speed": 1.5961638117178352,
+            "horizontal_accuracy": 79.04007881976844,
+            "battery_level": 0.31699999999999995,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.03369412023089,
+              36.98543848701875,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T19:02:20.634Z",
+            "speed": 50,
+            "horizontal_accuracy": 173.95820294057776,
+            "battery_level": 0.31399999999999995,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05232665286184,
+              36.97735668667684,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T19:10:06.278Z",
+            "speed": 0.05265036569317605,
+            "horizontal_accuracy": 57.932225764843324,
+            "battery_level": 0.31099999999999994,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05169785505267,
+              36.97647325020636,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T20:21:47.600Z",
+            "speed": 1.2196638086530396,
+            "horizontal_accuracy": 55.77136592278008,
+            "battery_level": 0.29599999999999993,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05239124417024,
+              36.976310811577505,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T20:45:44.608Z",
+            "speed": 1.943330302256679,
+            "horizontal_accuracy": 56.22758952500196,
+            "battery_level": 0.2929999999999999,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05232883774374,
+              36.97656886836732,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T20:52:23.419Z",
+            "speed": 0.8731969702877669,
+            "horizontal_accuracy": 32.337681379197306,
+            "battery_level": 0.2899999999999999,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05347331149932,
+              36.97641454600182,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T21:00:03.050Z",
+            "speed": 0.5792828638247158,
+            "horizontal_accuracy": 77.40088813365531,
+            "battery_level": 0.2869999999999999,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05191353821216,
+              36.976678953019146,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T21:27:05.474Z",
+            "speed": 1.3610647934697253,
+            "horizontal_accuracy": 72.96960842223362,
+            "battery_level": 0.2839999999999999,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05128487470077,
+              36.975697098755056,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T21:38:41.768Z",
+            "speed": 0.34192788298503207,
+            "horizontal_accuracy": 88.09001401099485,
+            "battery_level": 0.2809999999999999,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05310411489404,
+              36.97642688679624,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T21:53:52.847Z",
+            "speed": 1.9613903867032443,
+            "horizontal_accuracy": 84.83462796144866,
+            "battery_level": 0.2779999999999999,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.07079858757824,
+              36.9790881838455,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T22:08:36.145Z",
+            "speed": 50,
+            "horizontal_accuracy": 211.8248411616932,
+            "battery_level": 0.2749999999999999,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05167651998559,
+              36.97617512111215,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T22:32:52.079Z",
+            "speed": 1.5297199019807972,
+            "horizontal_accuracy": 90.86278254228222,
+            "battery_level": 0.2719999999999999,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.05306892783908,
+              36.97604085326071,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-sparse",
+            "timestamp": "2026-03-25T22:56:45.439Z",
+            "speed": 1.2149123346698136,
+            "horizontal_accuracy": 77.30455732239203,
+            "battery_level": 0.2689999999999999,
+            "battery_state": "unplugged",
+            "motion": [
+              "unknown"
+            ],
+            "activity": "unknown",
+            "wifi": null
+          }
+        }
+      ]
+    }
+  ]
+}

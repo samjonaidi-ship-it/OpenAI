@@ -1,0 +1,145 @@
+{
+  "scenario": "2026-03-06_chad-buthker.json",
+  "meta": {
+    "employeeId": "EMP-1",
+    "qbtUserId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-25",
+    "originalDate": "2026-03-06",
+    "dayOfWeek": "Wednesday",
+    "deviceId": "sim-2866540",
+    "totalHours": 8,
+    "entryCount": 3,
+    "pingCount": 263,
+    "qbtEntries": [
+      {
+        "timesheetId": 290489134,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.75,
+        "durationSeconds": 13500,
+        "start": "2026-03-06T07:45:00-08:00",
+        "end": "2026-03-06T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290578442,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-06T11:30:00-08:00",
+        "end": "2026-03-06T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290578440,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.75,
+        "durationSeconds": 13500,
+        "start": "2026-03-06T12:00:00-08:00",
+        "end": "2026-03-06T15:45:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-06T07:45:00-08:00",
+        "end": "2026-03-06T11:30:00-08:00",
+        "hours": 3.75
+      },
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-06T12:00:00-08:00",
+        "end": "2026-03-06T15:45:00-08:00",
+        "hours": 3.75
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:48:40.345Z",
+  "mode": "fast",
+  "drafts": [
+    {
+      "id": "33afc766-4701-485b-8a2d-5c9159fad4cb",
+      "date": "2026-03-25T07:00:00.000Z",
+      "property_id": "PROP-00031",
+      "hours": 7.98,
+      "arrive_time": "2026-03-25T15:45:00.000Z",
+      "depart_time": "2026-03-25T23:44:00.000Z",
+      "dwell_minutes": 479,
+      "confidence": 0.95,
+      "status": "pending_review",
+      "poi_type": "jobsite",
+      "poi_name": "109 Tait Ave.",
+      "has_offline_gap": false,
+      "adjusted_arrive_time": null,
+      "adjusted_depart_time": null,
+      "adjusted_hours": null,
+      "adjustment_note": null,
+      "adjustment_source": null,
+      "jobcode_id": null,
+      "reviewed_at": null,
+      "approved_at": null,
+      "qbt_timesheet_id": null,
+      "metadata": {
+        "type": "jobsite",
+        "shape": "circular",
+        "pingCount": 236
+      }
+    }
+  ],
+  "qbtEntries": [
+    {
+      "timesheetId": 290489134,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 3.75,
+      "durationSeconds": 13500,
+      "start": "2026-03-06T07:45:00-08:00",
+      "end": "2026-03-06T11:30:00-08:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 290578442,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-06T11:30:00-08:00",
+      "end": "2026-03-06T12:00:00-08:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 290578440,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 3.75,
+      "durationSeconds": 13500,
+      "start": "2026-03-06T12:00:00-08:00",
+      "end": "2026-03-06T15:45:00-08:00",
+      "type": "regular",
+      "notes": "Chad"
+    }
+  ]
+}

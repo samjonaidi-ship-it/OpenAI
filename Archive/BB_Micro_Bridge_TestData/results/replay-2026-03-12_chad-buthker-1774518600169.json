@@ -1,0 +1,208 @@
+{
+  "scenario": "2026-03-12_chad-buthker.json",
+  "meta": {
+    "employeeId": "EMP-1",
+    "qbtUserId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-25",
+    "originalDate": "2026-03-12",
+    "dayOfWeek": "Wednesday",
+    "deviceId": "sim-2866540",
+    "totalHours": 5,
+    "entryCount": 4,
+    "pingCount": 173,
+    "qbtEntries": [
+      {
+        "timesheetId": 291296704,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-12T07:15:00-07:00",
+        "end": "2026-03-12T10:45:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291335404,
+        "jobcodeId": 159620870,
+        "jobcodeName": "Bainbridge",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 0.75,
+        "durationSeconds": 2700,
+        "start": "2026-03-12T10:45:00-07:00",
+        "end": "2026-03-12T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291635130,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-12T11:30:00-07:00",
+        "end": "2026-03-12T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 291635128,
+        "jobcodeId": 159620870,
+        "jobcodeName": "Bainbridge",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 0.25,
+        "durationSeconds": 900,
+        "start": "2026-03-12T12:00:00-07:00",
+        "end": "2026-03-12T12:15:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-12T07:15:00-07:00",
+        "end": "2026-03-12T10:45:00-07:00",
+        "hours": 3.5
+      },
+      {
+        "name": "Bainbridge",
+        "propertyId": "PROP-00004",
+        "lat": 37.2399969,
+        "lng": -121.9747139,
+        "start": "2026-03-12T10:45:00-07:00",
+        "end": "2026-03-12T11:30:00-07:00",
+        "hours": 0.75
+      },
+      {
+        "name": "Bainbridge",
+        "propertyId": "PROP-00004",
+        "lat": 37.2399969,
+        "lng": -121.9747139,
+        "start": "2026-03-12T12:00:00-07:00",
+        "end": "2026-03-12T12:15:00-07:00",
+        "hours": 0.25
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:50:00.169Z",
+  "mode": "fast",
+  "drafts": [
+    {
+      "id": "e879d965-ded4-4e5e-a1c0-1e1af45f2fb6",
+      "date": "2026-03-25T07:00:00.000Z",
+      "property_id": "PROP-00031",
+      "hours": 3.47,
+      "arrive_time": "2026-03-25T14:15:00.000Z",
+      "depart_time": "2026-03-25T17:43:00.000Z",
+      "dwell_minutes": 208,
+      "confidence": 0.95,
+      "status": "pending_review",
+      "poi_type": "jobsite",
+      "poi_name": "109 Tait Ave.",
+      "has_offline_gap": false,
+      "adjusted_arrive_time": null,
+      "adjusted_depart_time": null,
+      "adjusted_hours": null,
+      "adjustment_note": null,
+      "adjustment_source": null,
+      "jobcode_id": null,
+      "reviewed_at": null,
+      "approved_at": null,
+      "qbt_timesheet_id": null,
+      "metadata": {
+        "type": "jobsite",
+        "shape": "circular",
+        "pingCount": 102
+      }
+    },
+    {
+      "id": "671d6f4d-a7a0-4198-8a64-7c71bf91ad97",
+      "date": "2026-03-25T07:00:00.000Z",
+      "property_id": "PROP-00004",
+      "hours": 1.45,
+      "arrive_time": "2026-03-25T17:45:00.000Z",
+      "depart_time": "2026-03-25T19:12:00.000Z",
+      "dwell_minutes": 87,
+      "confidence": 0.95,
+      "status": "pending_review",
+      "poi_type": "jobsite",
+      "poi_name": "805 University Ave.",
+      "has_offline_gap": false,
+      "adjusted_arrive_time": null,
+      "adjusted_depart_time": null,
+      "adjusted_hours": null,
+      "adjustment_note": null,
+      "adjustment_source": null,
+      "jobcode_id": null,
+      "reviewed_at": null,
+      "approved_at": null,
+      "qbt_timesheet_id": null,
+      "metadata": {
+        "type": "jobsite",
+        "shape": "circular",
+        "pingCount": 44
+      }
+    }
+  ],
+  "qbtEntries": [
+    {
+      "timesheetId": 291296704,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 3.5,
+      "durationSeconds": 12600,
+      "start": "2026-03-12T07:15:00-07:00",
+      "end": "2026-03-12T10:45:00-07:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 291335404,
+      "jobcodeId": 159620870,
+      "jobcodeName": "Bainbridge",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 0.75,
+      "durationSeconds": 2700,
+      "start": "2026-03-12T10:45:00-07:00",
+      "end": "2026-03-12T11:30:00-07:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 291635130,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-12T11:30:00-07:00",
+      "end": "2026-03-12T12:00:00-07:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 291635128,
+      "jobcodeId": 159620870,
+      "jobcodeName": "Bainbridge",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 0.25,
+      "durationSeconds": 900,
+      "start": "2026-03-12T12:00:00-07:00",
+      "end": "2026-03-12T12:15:00-07:00",
+      "type": "regular",
+      "notes": "Chad"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "daysWorked": 10,
+    "totalHours": 79.5,
+    "avgHoursPerDay": 7.95,
+    "jobcodes": [
+      "Labe - Tait Ave.",
+      "Eklund",
+      "JC-171969570",
+      "Bainbridge"
+    ],
+    "avgEntriesPerDay": 3.2,
+    "totalEntries": 32
+  },
+  {
+    "employeeId": "3194176",
+    "employeeName": "Evan Bainbridge",
+    "daysWorked": 5,
+    "totalHours": 20,
+    "avgHoursPerDay": 4,
+    "jobcodes": [
+      "Labe - Tait Ave.",
+      "Eklund"
+    ],
+    "avgEntriesPerDay": 1,
+    "totalEntries": 5
+  },
+  {
+    "employeeId": "5623604",
+    "employeeName": "Matt Miguel",
+    "daysWorked": 10,
+    "totalHours": 80.5,
+    "avgHoursPerDay": 8.05,
+    "jobcodes": [
+      "Eklund",
+      "JC-171969570",
+      "Duckworth",
+      "Labe - Tait Ave."
+    ],
+    "avgEntriesPerDay": 3.1,
+    "totalEntries": 31
+  },
+  {
+    "employeeId": "5761332",
+    "employeeName": "Ross Bainbridge",
+    "daysWorked": 4,
+    "totalHours": 11.25,
+    "avgHoursPerDay": 2.81,
+    "jobcodes": [
+      "Labe - Tait Ave.",
+      "Eklund"
+    ],
+    "avgEntriesPerDay": 1.25,
+    "totalEntries": 5
+  },
+  {
+    "employeeId": "5901720",
+    "employeeName": "Felipe Sandoval Ontiveros",
+    "daysWorked": 2,
+    "totalHours": 15,
+    "avgHoursPerDay": 7.5,
+    "jobcodes": [
+      "Duckworth"
+    ],
+    "avgEntriesPerDay": 1,
+    "totalEntries": 2
+  },
+  {
+    "employeeId": "6153134",
+    "employeeName": "Christian Incze",
+    "daysWorked": 10,
+    "totalHours": 80.75,
+    "avgHoursPerDay": 8.07,
+    "jobcodes": [
+      "Eklund",
+      "JC-171969570",
+      "Labe - Tait Ave.",
+      "Duckworth"
+    ],
+    "avgEntriesPerDay": 3.2,
+    "totalEntries": 32
+  },
+  {
+    "employeeId": "7021552",
+    "employeeName": "Clay Anderson",
+    "daysWorked": 10,
+    "totalHours": 80.5,
+    "avgHoursPerDay": 8.05,
+    "jobcodes": [
+      "Eklund",
+      "JC-171969570",
+      "Duckworth",
+      "Labe - Tait Ave."
+    ],
+    "avgEntriesPerDay": 3.1,
+    "totalEntries": 31
+  },
+  {
+    "employeeId": "7342178",
+    "employeeName": "Benjamin Wallan",
+    "daysWorked": 3,
+    "totalHours": 24,
+    "avgHoursPerDay": 8,
+    "jobcodes": [
+      "Eklund",
+      "JC-171969570",
+      "Duckworth"
+    ],
+    "avgEntriesPerDay": 3.67,
+    "totalEntries": 11
+  }
+]

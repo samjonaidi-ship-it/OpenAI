@@ -1,0 +1,114 @@
+{
+  "scenario": "2026-03-09_chad-buthker.json",
+  "meta": {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-09",
+    "dayOfWeek": "Monday",
+    "deviceId": "sim-2866540",
+    "totalHours": 8.25,
+    "entryCount": 3,
+    "pingCount": 270,
+    "qbtEntries": [
+      {
+        "timesheetId": 290729202,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.5,
+        "durationSeconds": 12600,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290844582,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-09T11:30:00-07:00",
+        "end": "2026-03-09T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290844580,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4.25,
+        "durationSeconds": 15300,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:15:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-09T08:00:00-07:00",
+        "end": "2026-03-09T11:30:00-07:00",
+        "hours": 3.5
+      },
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-09T12:00:00-07:00",
+        "end": "2026-03-09T16:15:00-07:00",
+        "hours": 4.25
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:41:57.186Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": [
+    {
+      "timesheetId": 290729202,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 3.5,
+      "durationSeconds": 12600,
+      "start": "2026-03-09T08:00:00-07:00",
+      "end": "2026-03-09T11:30:00-07:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 290844582,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-09T11:30:00-07:00",
+      "end": "2026-03-09T12:00:00-07:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 290844580,
+      "jobcodeId": 176321744,
+      "jobcodeName": "Labe - Tait Ave.",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 4.25,
+      "durationSeconds": 15300,
+      "start": "2026-03-09T12:00:00-07:00",
+      "end": "2026-03-09T16:15:00-07:00",
+      "type": "regular",
+      "notes": "Chad"
+    }
+  ]
+}

@@ -1,0 +1,6441 @@
+{
+  "meta": {
+    "employeeId": "EMP-1",
+    "qbtUserId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-25",
+    "originalDate": "2026-03-06",
+    "dayOfWeek": "Wednesday",
+    "deviceId": "sim-2866540",
+    "totalHours": 8,
+    "entryCount": 3,
+    "pingCount": 264,
+    "qbtEntries": [
+      {
+        "timesheetId": 290489134,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.75,
+        "durationSeconds": 13500,
+        "start": "2026-03-06T07:45:00-08:00",
+        "end": "2026-03-06T11:30:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290578442,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-06T11:30:00-08:00",
+        "end": "2026-03-06T12:00:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 290578440,
+        "jobcodeId": 176321744,
+        "jobcodeName": "Labe - Tait Ave.",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.75,
+        "durationSeconds": 13500,
+        "start": "2026-03-06T12:00:00-08:00",
+        "end": "2026-03-06T15:45:00-08:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-06T07:45:00-08:00",
+        "end": "2026-03-06T11:30:00-08:00",
+        "hours": 3.75
+      },
+      {
+        "name": "Labe - Tait Ave.",
+        "propertyId": "PROP-00031",
+        "lat": 37.2257295,
+        "lng": -121.9851605,
+        "start": "2026-03-06T12:00:00-08:00",
+        "end": "2026-03-06T15:45:00-08:00",
+        "hours": 3.75
+      }
+    ]
+  },
+  "batches": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.96408699711375,
+              37.23926306021763,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:25:00.000Z",
+            "speed": 22.88501337644944,
+            "horizontal_accuracy": 25.618080093982424,
+            "battery_level": 0.999,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.96617666409855,
+              37.2382614455796,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:27:00.000Z",
+            "speed": 13.981195898424545,
+            "horizontal_accuracy": 24.874896138899075,
+            "battery_level": 0.998,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.96836838437305,
+              37.236570202252935,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:29:00.000Z",
+            "speed": 23.44365584292838,
+            "horizontal_accuracy": 24.61127246872824,
+            "battery_level": 0.997,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97046851163937,
+              37.235366456333544,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:31:00.000Z",
+            "speed": 8.460098029492473,
+            "horizontal_accuracy": 23.243977807097856,
+            "battery_level": 0.996,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97257054325276,
+              37.23389641767038,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:33:00.000Z",
+            "speed": 15.48650000323762,
+            "horizontal_accuracy": 18.55945780590758,
+            "battery_level": 0.995,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97435611097521,
+              37.23273945765722,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:35:00.000Z",
+            "speed": 16.794284445687268,
+            "horizontal_accuracy": 14.35473755113877,
+            "battery_level": 0.994,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97678317538492,
+              37.23121402021784,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:37:00.000Z",
+            "speed": 11.766640704035485,
+            "horizontal_accuracy": 17.21132478408145,
+            "battery_level": 0.993,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97858498745543,
+              37.22995057307567,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:39:00.000Z",
+            "speed": 12.883331596867935,
+            "horizontal_accuracy": 25.769163421093825,
+            "battery_level": 0.992,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98092197174464,
+              37.228501017692615,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:41:00.000Z",
+            "speed": 22.744821159747744,
+            "horizontal_accuracy": 22.555731062195413,
+            "battery_level": 0.991,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98291745859528,
+              37.22706222753631,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:43:00.000Z",
+            "speed": 19.124552239506933,
+            "horizontal_accuracy": 22.19848091553623,
+            "battery_level": 0.99,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98501395820001,
+              37.22551823249847,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:45:00.000Z",
+            "speed": 8.807108145143475,
+            "horizontal_accuracy": 26.76411389879149,
+            "battery_level": 0.989,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.00418629334123,
+              37.22304903625631,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:45:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 114.47743532701836,
+            "battery_level": 0.9885,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98514146759315,
+              37.2257540978638,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:47:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.095213844432257,
+            "battery_level": 0.9880000000000001,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98506380010784,
+              37.22569024898206,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:49:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.425385662240762,
+            "battery_level": 0.9875000000000002,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9850912424503,
+              37.22578112787889,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:51:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.800073202670286,
+            "battery_level": 0.9870000000000002,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518658934618,
+              37.225751706373,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:53:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.102703057503476,
+            "battery_level": 0.9865000000000003,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98521904551707,
+              37.22576283225473,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:55:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.848910801771336,
+            "battery_level": 0.9860000000000003,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98508526997392,
+              37.22568606762473,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:57:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.2495351126701095,
+            "battery_level": 0.9855000000000004,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512963353595,
+              37.2257698652724,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T15:59:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.705462030879694,
+            "battery_level": 0.9850000000000004,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512083294848,
+              37.22568790867629,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:01:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.795150678862912,
+            "battery_level": 0.9845000000000005,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98520967839505,
+              37.225627681155835,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:03:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.776730845699074,
+            "battery_level": 0.9840000000000005,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519330184779,
+              37.22571188867925,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:05:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.344143910132368,
+            "battery_level": 0.9835000000000006,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511942059088,
+              37.225792557626555,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:07:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.220144650662693,
+            "battery_level": 0.9830000000000007,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513247897824,
+              37.225807353067935,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:09:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.49147222446075,
+            "battery_level": 0.9825000000000007,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851685720459,
+              37.225782104679254,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:11:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.517352480183721,
+            "battery_level": 0.9820000000000008,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515971584611,
+              37.22569042419547,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:13:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.353065513397112,
+            "battery_level": 0.9815000000000008,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513692972213,
+              37.22566728000344,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:15:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.630958208575594,
+            "battery_level": 0.9810000000000009,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511264716818,
+              37.225758948792844,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:17:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.305494631466917,
+            "battery_level": 0.9805000000000009,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98523413263234,
+              37.2257278312835,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:19:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.382502785426181,
+            "battery_level": 0.980000000000001,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.985184643456,
+              37.225763073070425,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:21:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.0520475955054716,
+            "battery_level": 0.979500000000001,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98522342611432,
+              37.22571344823679,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:23:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.796386403422253,
+            "battery_level": 0.9790000000000011,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98508563819453,
+              37.225737414724634,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:25:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.807232649427957,
+            "battery_level": 0.9785000000000011,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518277588317,
+              37.225663046460696,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:27:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.681288267132817,
+            "battery_level": 0.9780000000000012,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98521904486186,
+              37.22575822595806,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:29:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.308691741515368,
+            "battery_level": 0.9775000000000013,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98517101356127,
+              37.225703063566606,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:31:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.682450660179105,
+            "battery_level": 0.9770000000000013,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513448109843,
+              37.225650918551466,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:33:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.953014798409246,
+            "battery_level": 0.9765000000000014,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98521522748806,
+              37.22578460068621,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:35:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.402725188185949,
+            "battery_level": 0.9760000000000014,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9850773764402,
+              37.225765638204685,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:37:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.212429996035397,
+            "battery_level": 0.9755000000000015,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851932818335,
+              37.22570707486929,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:39:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.516492216169956,
+            "battery_level": 0.9750000000000015,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511841003139,
+              37.225725031004444,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:41:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.044137477414832,
+            "battery_level": 0.9745000000000016,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518596840479,
+              37.22576723353517,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:43:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.083687087586554,
+            "battery_level": 0.9740000000000016,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98526105563701,
+              37.22577423430876,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:45:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.953764109776271,
+            "battery_level": 0.9735000000000017,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98516687195621,
+              37.22575305973346,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:47:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.215226468661072,
+            "battery_level": 0.9730000000000018,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98508555457609,
+              37.225746890757904,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:49:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.326258252471646,
+            "battery_level": 0.9725000000000018,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98517824739267,
+              37.22576974801727,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:51:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.400913278787552,
+            "battery_level": 0.9720000000000019,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98522721199699,
+              37.22568321795706,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:53:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.979374995080138,
+            "battery_level": 0.9715000000000019,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511543898591,
+              37.225711849229526,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:55:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.23454828786618,
+            "battery_level": 0.971000000000002,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515593252213,
+              37.22571630016245,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:57:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.260514557528992,
+            "battery_level": 0.970500000000002,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512988505813,
+              37.225654030868185,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T16:59:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.479732022536117,
+            "battery_level": 0.9700000000000021,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512499848826,
+              37.225700737479805,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:01:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.863995449878256,
+            "battery_level": 0.9695000000000021,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9852036795083,
+              37.225733527137216,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:03:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.924931948465213,
+            "battery_level": 0.9690000000000022,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519458463545,
+              37.22575438651631,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:05:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.471905531286396,
+            "battery_level": 0.9685000000000022,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513134151054,
+              37.22574454506754,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:07:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.076564260476601,
+            "battery_level": 0.9680000000000023,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98521469288752,
+              37.225718019365395,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:09:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.566763041938966,
+            "battery_level": 0.9675000000000024,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519180210573,
+              37.22565926298344,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:11:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.032481795903326,
+            "battery_level": 0.9670000000000024,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98525673585654,
+              37.22573066787146,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:13:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.7767212673044765,
+            "battery_level": 0.9665000000000025,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98517737159155,
+              37.22574847990673,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:15:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.446749968632439,
+            "battery_level": 0.9660000000000025,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519946715132,
+              37.225686482560945,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:17:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.968081376555325,
+            "battery_level": 0.9655000000000026,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98521321539302,
+              37.22569272786789,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:19:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.27699501687099,
+            "battery_level": 0.9650000000000026,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518569898437,
+              37.22576228278671,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:21:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.133752294996015,
+            "battery_level": 0.9645000000000027,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98520192284815,
+              37.2257373500329,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:23:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.725957145623614,
+            "battery_level": 0.9640000000000027,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98523827018757,
+              37.22575896677573,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:25:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.625881732787665,
+            "battery_level": 0.9635000000000028,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518223463735,
+              37.225725920729346,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:27:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.376920681956602,
+            "battery_level": 0.9630000000000029,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851212355406,
+              37.22571663590096,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:29:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.587988456220437,
+            "battery_level": 0.9625000000000029,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518574489212,
+              37.225740075899424,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:31:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.028373171745443,
+            "battery_level": 0.962000000000003,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98516579645069,
+              37.225633730842674,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:33:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.63058241668291,
+            "battery_level": 0.961500000000003,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519805239269,
+              37.22566321969794,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:35:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.124338462527742,
+            "battery_level": 0.9610000000000031,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98520431232662,
+              37.22564014124346,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:37:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.68561586234423,
+            "battery_level": 0.9605000000000031,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98510315592394,
+              37.2258244497078,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:39:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.518973884510418,
+            "battery_level": 0.9600000000000032,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515517351113,
+              37.225785482036336,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:41:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.947653054680792,
+            "battery_level": 0.9595000000000032,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98507248312009,
+              37.225749794072485,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:43:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.573228106952211,
+            "battery_level": 0.9590000000000033,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512727960971,
+              37.22576283708213,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:45:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.981613648066989,
+            "battery_level": 0.9585000000000033,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511848574758,
+              37.22574173748957,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:47:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.268567901601774,
+            "battery_level": 0.9580000000000034,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98509935299434,
+              37.225778738764575,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:49:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.947286719615164,
+            "battery_level": 0.9575000000000035,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98525679073985,
+              37.225730699628485,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:51:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.169936260018783,
+            "battery_level": 0.9570000000000035,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98514962451206,
+              37.225732211811625,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:53:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.77982163406453,
+            "battery_level": 0.9565000000000036,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851504993466,
+              37.22575819219287,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:55:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.025277003628682,
+            "battery_level": 0.9560000000000036,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9852716901474,
+              37.22572467129782,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:57:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.9759113241432456,
+            "battery_level": 0.9555000000000037,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513083098085,
+              37.22582436796751,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T17:59:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.048360673223609,
+            "battery_level": 0.9550000000000037,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98522254298913,
+              37.22571227074737,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:01:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.587441330733054,
+            "battery_level": 0.9545000000000038,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851476656698,
+              37.2256195402333,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:03:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.392571295320014,
+            "battery_level": 0.9540000000000038,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98526793704734,
+              37.225744879201606,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:05:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.628654136337897,
+            "battery_level": 0.9535000000000039,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98514788786666,
+              37.225703088943284,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:07:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.958721661323213,
+            "battery_level": 0.953000000000004,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98526583498698,
+              37.22564038213608,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:09:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.909606755771849,
+            "battery_level": 0.952500000000004,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851762864388,
+              37.22566545889605,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:11:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.842012369350593,
+            "battery_level": 0.9520000000000041,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513739668788,
+              37.22570022972612,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:13:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.38037086598467,
+            "battery_level": 0.9515000000000041,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515140815731,
+              37.225727154035276,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:15:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.714249115872207,
+            "battery_level": 0.9510000000000042,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515837750347,
+              37.225800619188604,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:17:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.94951629309842,
+            "battery_level": 0.9505000000000042,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513987711034,
+              37.225820985029344,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:19:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.817709818321162,
+            "battery_level": 0.9500000000000043,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9852359742443,
+              37.22569573067513,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:21:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.410922265217098,
+            "battery_level": 0.9495000000000043,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515279219099,
+              37.22566408955263,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:23:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.347985113778273,
+            "battery_level": 0.9490000000000044,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98504432133646,
+              37.225757559141755,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:25:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.77990841874193,
+            "battery_level": 0.9485000000000045,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515021740745,
+              37.22568495989388,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:27:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.463527290174675,
+            "battery_level": 0.9480000000000045,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513898907768,
+              37.225725850273854,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:29:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.596877794173906,
+            "battery_level": 0.9475000000000046,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98520970569584,
+              37.22586656035452,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:31:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.53795682303962,
+            "battery_level": 0.9470000000000046,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513425900734,
+              37.225765162769754,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:33:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.321358206989376,
+            "battery_level": 0.9465000000000047,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98313395890754,
+              37.22875415604093,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:35:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 150.78162074846847,
+            "battery_level": 0.9460000000000047,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512645688051,
+              37.22571283339641,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:37:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.563067333280374,
+            "battery_level": 0.9455000000000048,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98526770646852,
+              37.225669473253326,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:39:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.356320274479464,
+            "battery_level": 0.9450000000000048,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98509096794444,
+              37.225749253074405,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:41:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.284025434119442,
+            "battery_level": 0.9445000000000049,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98505782153374,
+              37.22571308317787,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:43:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.335156439302621,
+            "battery_level": 0.944000000000005,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98523399855587,
+              37.22571278484077,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:45:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.74171424335345,
+            "battery_level": 0.943500000000005,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512102817648,
+              37.22568289507019,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:47:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.527146462287867,
+            "battery_level": 0.9430000000000051,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98514839865146,
+              37.22574228350341,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:49:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.776607067523539,
+            "battery_level": 0.9425000000000051,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851599726589,
+              37.225709337513194,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:51:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.494850022010246,
+            "battery_level": 0.9420000000000052,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98509621171954,
+              37.22567440618174,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:53:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.436602183013074,
+            "battery_level": 0.9415000000000052,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851972620812,
+              37.225684251945886,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:55:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.942873413020577,
+            "battery_level": 0.9410000000000053,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512036932586,
+              37.22582906618879,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:57:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.760316214635395,
+            "battery_level": 0.9405000000000053,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98516723272827,
+              37.22574263152717,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T18:59:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.788030449877095,
+            "battery_level": 0.9400000000000054,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.985209140612,
+              37.2257560107352,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:01:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.53853282430952,
+            "battery_level": 0.9395000000000054,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519620554647,
+              37.22573523342034,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:03:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.384369298136806,
+            "battery_level": 0.9390000000000055,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98524542204677,
+              37.22570104868176,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:05:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.880613564560676,
+            "battery_level": 0.9385000000000056,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98522484261862,
+              37.22566976238856,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:07:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.726940325097523,
+            "battery_level": 0.9380000000000056,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98516439246772,
+              37.22572572143798,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:09:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.900048676545582,
+            "battery_level": 0.9375000000000057,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.99466343661227,
+              37.222829899425804,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:11:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 119.96276477779575,
+            "battery_level": 0.9370000000000057,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515269104176,
+              37.22577904548786,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:13:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.326243665165672,
+            "battery_level": 0.9365000000000058,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98514153072874,
+              37.22572162650151,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:15:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.903660197167618,
+            "battery_level": 0.9360000000000058,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98504277322571,
+              37.224394477583466,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:17:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 132.76075385444597,
+            "battery_level": 0.9355000000000059,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851374191615,
+              37.225730921329,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:19:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.762949632546194,
+            "battery_level": 0.9350000000000059,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98516534966554,
+              37.22577161200715,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:21:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.280356604829248,
+            "battery_level": 0.934500000000006,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98520354040558,
+              37.225774644640964,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:23:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.0503095383517,
+            "battery_level": 0.934000000000006,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98521866154631,
+              37.22574536296019,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:25:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.5563411293516305,
+            "battery_level": 0.9335000000000061,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98522309886145,
+              37.22571150461283,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:27:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.912557789746722,
+            "battery_level": 0.9330000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518323488766,
+              37.22565153740265,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:29:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.674601727797569,
+            "battery_level": 0.9325000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98486594321173,
+              37.22577289404156,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:30:00.000Z",
+            "speed": 11.85393350221864,
+            "horizontal_accuracy": 14.291174941477873,
+            "battery_level": 0.9315000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9849139227785,
+              37.22558267235317,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:32:00.000Z",
+            "speed": 21.895251601871987,
+            "horizontal_accuracy": 13.08607794482845,
+            "battery_level": 0.9305000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98520041890268,
+              37.22555966199444,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:34:00.000Z",
+            "speed": 8.550106812590178,
+            "horizontal_accuracy": 17.95274060795843,
+            "battery_level": 0.9295000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98499160737269,
+              37.22560428867923,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:36:00.000Z",
+            "speed": 9.915196318286002,
+            "horizontal_accuracy": 19.72897353620433,
+            "battery_level": 0.9285000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98538421280847,
+              37.225658030062874,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:38:00.000Z",
+            "speed": 21.019775275000008,
+            "horizontal_accuracy": 20.000641714131042,
+            "battery_level": 0.9275000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98528857575401,
+              37.22553721241876,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:40:00.000Z",
+            "speed": 18.96158975260324,
+            "horizontal_accuracy": 19.707036792737625,
+            "battery_level": 0.9265000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.99993674893753,
+              37.21551853093839,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:42:00.000Z",
+            "speed": 8.862581931650285,
+            "horizontal_accuracy": 138.49412110402386,
+            "battery_level": 0.9255000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511576739399,
+              37.22551370913296,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:44:00.000Z",
+            "speed": 16.59572277035674,
+            "horizontal_accuracy": 25.959952636163855,
+            "battery_level": 0.9245000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98516392065109,
+              37.22566751067386,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:46:00.000Z",
+            "speed": 20.901816385735337,
+            "horizontal_accuracy": 17.983947336504336,
+            "battery_level": 0.9235000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98509591727846,
+              37.225788267534995,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:48:00.000Z",
+            "speed": 18.09583644033507,
+            "horizontal_accuracy": 22.216669919890204,
+            "battery_level": 0.9225000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98537423160747,
+              37.22585096239344,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:50:00.000Z",
+            "speed": 16.715200360629566,
+            "horizontal_accuracy": 25.225482239717458,
+            "battery_level": 0.9215000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98529822242891,
+              37.225554337226434,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:52:00.000Z",
+            "speed": 9.046556217992759,
+            "horizontal_accuracy": 18.015480942359467,
+            "battery_level": 0.9205000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98535607435943,
+              37.22569851092759,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:54:00.000Z",
+            "speed": 10.568747555069214,
+            "horizontal_accuracy": 20.303865518571875,
+            "battery_level": 0.9195000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518321224475,
+              37.22557766415992,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:56:00.000Z",
+            "speed": 8.403488985620806,
+            "horizontal_accuracy": 23.314560044481535,
+            "battery_level": 0.9185000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9854593582872,
+              37.22571150467322,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T19:58:00.000Z",
+            "speed": 11.835127727461781,
+            "horizontal_accuracy": 22.148438188640675,
+            "battery_level": 0.9175000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511821975298,
+              37.225662317044744,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:00:00.000Z",
+            "speed": 12.264093637129486,
+            "horizontal_accuracy": 15.260534935740974,
+            "battery_level": 0.9165000000000062,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97384123317961,
+              37.220835003924364,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:00:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 129.2653026080724,
+            "battery_level": 0.9160000000000063,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851846935733,
+              37.22573827965051,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:02:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.053589000768093,
+            "battery_level": 0.9155000000000063,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519049838369,
+              37.22573797598579,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:04:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.606910410355659,
+            "battery_level": 0.9150000000000064,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98524561410233,
+              37.225770025185646,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:06:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.531082380569675,
+            "battery_level": 0.9145000000000064,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851549536478,
+              37.2256990004744,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:08:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.074488616914163,
+            "battery_level": 0.9140000000000065,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98517112397884,
+              37.22569778729254,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:10:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.084709924653712,
+            "battery_level": 0.9135000000000065,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519283156256,
+              37.2256967193361,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:12:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.153396494115213,
+            "battery_level": 0.9130000000000066,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518594210206,
+              37.22574261516274,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:14:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.857870711047673,
+            "battery_level": 0.9125000000000066,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98524906766161,
+              37.22571355376733,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:16:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.016400744491389,
+            "battery_level": 0.9120000000000067,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98508188266851,
+              37.22569000429992,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:18:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.338226836230056,
+            "battery_level": 0.9115000000000067,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9852551027383,
+              37.22565321286046,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:20:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.288381316175543,
+            "battery_level": 0.9110000000000068,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511200729527,
+              37.22570154021081,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:22:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.453339210264462,
+            "battery_level": 0.9105000000000069,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98530327090468,
+              37.22575778574861,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:24:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.649551189394026,
+            "battery_level": 0.9100000000000069,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518562417543,
+              37.225737173348804,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:26:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.787935034322253,
+            "battery_level": 0.909500000000007,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -122.00258230005865,
+              37.23911306642165,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:28:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 179.88463864272808,
+            "battery_level": 0.909000000000007,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513140712399,
+              37.2256989253099,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:30:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.1274175192203675,
+            "battery_level": 0.9085000000000071,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98526288744392,
+              37.22575057608651,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:32:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.379573628468462,
+            "battery_level": 0.9080000000000071,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98509075187425,
+              37.22566586033717,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:34:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.245385592643707,
+            "battery_level": 0.9075000000000072,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98509031101042,
+              37.225694347314636,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:36:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.324972976237,
+            "battery_level": 0.9070000000000072,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98517010346167,
+              37.22573431035105,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:38:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.578253529415745,
+            "battery_level": 0.9065000000000073,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513685268351,
+              37.22576302054228,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:40:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.764074148902853,
+            "battery_level": 0.9060000000000074,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515942788853,
+              37.225736375377764,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:42:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.863740964536738,
+            "battery_level": 0.9055000000000074,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98516982402188,
+              37.225702570330064,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:44:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.422456045902653,
+            "battery_level": 0.9050000000000075,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515695282961,
+              37.2256989183785,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:46:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.716368972868423,
+            "battery_level": 0.9045000000000075,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98528947249119,
+              37.2256267199196,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:48:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.500730433311114,
+            "battery_level": 0.9040000000000076,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513768901783,
+              37.22570578271943,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:50:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.2157739254949425,
+            "battery_level": 0.9035000000000076,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512689416098,
+              37.225680024128856,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:52:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.783640012343413,
+            "battery_level": 0.9030000000000077,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98522059933319,
+              37.225670029513246,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:54:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.45802723427205,
+            "battery_level": 0.9025000000000077,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98522138212014,
+              37.2256862751149,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:56:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.718964408742714,
+            "battery_level": 0.9020000000000078,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98521814254943,
+              37.22571449379556,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T20:58:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.453966817037014,
+            "battery_level": 0.9015000000000079,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98514754153653,
+              37.22575530704003,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:00:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.500811831159155,
+            "battery_level": 0.9010000000000079,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513249585268,
+              37.22575476573407,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:02:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.03506358213335,
+            "battery_level": 0.900500000000008,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98522790024347,
+              37.22573617689282,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:04:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.813509991463086,
+            "battery_level": 0.900000000000008,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98526221987763,
+              37.22572189320593,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:06:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.454899770761447,
+            "battery_level": 0.8995000000000081,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515874290584,
+              37.22568300390081,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:08:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.32671478105068,
+            "battery_level": 0.8990000000000081,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98527525446488,
+              37.225741144073474,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:10:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.181211129023836,
+            "battery_level": 0.8985000000000082,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98507439224356,
+              37.22570972469242,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:12:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.458625127874079,
+            "battery_level": 0.8980000000000082,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98524675983313,
+              37.225784414128675,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:14:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.464017143168457,
+            "battery_level": 0.8975000000000083,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98505652252426,
+              37.22566993867637,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:16:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.018636768747115,
+            "battery_level": 0.8970000000000083,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98521656792411,
+              37.22581976837143,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:18:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.090020126451656,
+            "battery_level": 0.8965000000000084,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98507312167158,
+              37.2258015967826,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:20:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.333815195697915,
+            "battery_level": 0.8960000000000085,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98525823449631,
+              37.225660424479905,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:22:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.8951368316626125,
+            "battery_level": 0.8955000000000085,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98508489672896,
+              37.22571853306534,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:24:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.779259832549656,
+            "battery_level": 0.8950000000000086,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98527235649622,
+              37.22579123824999,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:26:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.018383302166945,
+            "battery_level": 0.8945000000000086,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851623712037,
+              37.22573845378386,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:28:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.362524843030199,
+            "battery_level": 0.8940000000000087,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98521022283592,
+              37.2256655542137,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:30:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.885482088334194,
+            "battery_level": 0.8935000000000087,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511666572108,
+              37.225768787043734,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:32:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.979197462192378,
+            "battery_level": 0.8930000000000088,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519981507476,
+              37.22571123482963,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:34:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.597832548128931,
+            "battery_level": 0.8925000000000088,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851146657849,
+              37.225675419818735,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:36:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.698965190347749,
+            "battery_level": 0.8920000000000089,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515216967468,
+              37.22561045719413,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:38:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.090637692721836,
+            "battery_level": 0.891500000000009,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98523382597426,
+              37.225804788486975,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:40:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.985201721002687,
+            "battery_level": 0.891000000000009,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98528160529565,
+              37.225720240816905,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:42:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.7133758483836745,
+            "battery_level": 0.8905000000000091,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.985194917563,
+              37.225752656222014,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:44:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.952445786738522,
+            "battery_level": 0.8900000000000091,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519542586793,
+              37.22572380755202,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:46:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.694333334255044,
+            "battery_level": 0.8895000000000092,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519255416713,
+              37.22570060140255,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:48:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.685361201003651,
+            "battery_level": 0.8890000000000092,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851535529001,
+              37.22575564674499,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:50:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.98193968238506,
+            "battery_level": 0.8885000000000093,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98522224270955,
+              37.225679493146025,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:52:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.110255545567398,
+            "battery_level": 0.8880000000000093,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98507957903138,
+              37.22580745115023,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:54:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.25615039134922,
+            "battery_level": 0.8875000000000094,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518183155022,
+              37.22567844282078,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:56:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.835312757898607,
+            "battery_level": 0.8870000000000094,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98521100747952,
+              37.22579682194007,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T21:58:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.00867226532076,
+            "battery_level": 0.8865000000000095,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98523150372944,
+              37.22564288377447,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:00:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.449805968813596,
+            "battery_level": 0.8860000000000096,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98509301879946,
+              37.22576519950831,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:02:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.580591926902965,
+            "battery_level": 0.8855000000000096,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851614113039,
+              37.225766789999135,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:04:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.202599329900796,
+            "battery_level": 0.8850000000000097,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98508418874435,
+              37.22573682112008,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:06:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.19812913650875,
+            "battery_level": 0.8845000000000097,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98514642082273,
+              37.225682439756866,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:08:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.374644058919,
+            "battery_level": 0.8840000000000098,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518601809073,
+              37.22578712985925,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:10:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.774407595077774,
+            "battery_level": 0.8835000000000098,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851508140053,
+              37.225752128956685,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:12:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.18031265163258,
+            "battery_level": 0.8830000000000099,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513661644145,
+              37.225733063240476,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:14:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.149430141308962,
+            "battery_level": 0.8825000000000099,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98516682240461,
+              37.225742045219995,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:16:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.436627216679145,
+            "battery_level": 0.88200000000001,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98508343291222,
+              37.225699464042016,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:18:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.562261021000191,
+            "battery_level": 0.88150000000001,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515417517524,
+              37.22571600844936,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:20:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.325080441439649,
+            "battery_level": 0.8810000000000101,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511032346177,
+              37.22579517574383,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:22:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.876353796462531,
+            "battery_level": 0.8805000000000102,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98515202823977,
+              37.22566797201851,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:24:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.630268423102174,
+            "battery_level": 0.8800000000000102,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98520018130253,
+              37.22572638118004,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:26:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.398259647658541,
+            "battery_level": 0.8795000000000103,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98502342046937,
+              37.22570727338185,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:28:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.372294642723874,
+            "battery_level": 0.8790000000000103,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98523357490738,
+              37.22572797863786,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:30:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.963945085017993,
+            "battery_level": 0.8785000000000104,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9852225739376,
+              37.22579762479662,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:32:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.057234531176202,
+            "battery_level": 0.8780000000000104,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851561953231,
+              37.22570126572417,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:34:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.377087779437425,
+            "battery_level": 0.8775000000000105,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98514027672732,
+              37.22568689750934,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:36:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.126610547828577,
+            "battery_level": 0.8770000000000105,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98523112132582,
+              37.225714778260226,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:38:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.183933690764175,
+            "battery_level": 0.8765000000000106,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9852186182437,
+              37.22573812745182,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:40:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.769868219096708,
+            "battery_level": 0.8760000000000107,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518400740134,
+              37.225687322384196,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:42:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.84856077694572,
+            "battery_level": 0.8755000000000107,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98516621805271,
+              37.2257619465126,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:44:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.594657637252838,
+            "battery_level": 0.8750000000000108,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512009760076,
+              37.2256680581771,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:46:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.140292861565891,
+            "battery_level": 0.8745000000000108,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518215422034,
+              37.22580488069629,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:48:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.4379285613673325,
+            "battery_level": 0.8740000000000109,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851593001614,
+              37.225721743215395,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:50:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.363857802139246,
+            "battery_level": 0.8735000000000109,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511644710102,
+              37.22580539717843,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:52:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.237179130484658,
+            "battery_level": 0.873000000000011,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98504913376622,
+              37.22574018159721,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:54:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.78113919005147,
+            "battery_level": 0.872500000000011,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513760584311,
+              37.22572549581316,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:56:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.321797462782777,
+            "battery_level": 0.8720000000000111,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98503554611719,
+              37.225664785111356,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T22:58:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.832061036571555,
+            "battery_level": 0.8715000000000112,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98517263738724,
+              37.22576750239474,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:00:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.590505453244361,
+            "battery_level": 0.8710000000000112,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511256230572,
+              37.225678793828834,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:02:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.190174484523354,
+            "battery_level": 0.8705000000000113,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513217260479,
+              37.22571629825056,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:04:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.458337173084329,
+            "battery_level": 0.8700000000000113,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98517580443246,
+              37.225755403149726,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:06:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 12.089306415908357,
+            "battery_level": 0.8695000000000114,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513246902154,
+              37.22578411371279,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:08:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.592753039109155,
+            "battery_level": 0.8690000000000114,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98524350295281,
+              37.22571177805206,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:10:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.996657175049375,
+            "battery_level": 0.8685000000000115,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518965168736,
+              37.22568997432471,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:12:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.992602529199753,
+            "battery_level": 0.8680000000000115,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9850862650807,
+              37.225742172366026,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:14:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.0676277544508554,
+            "battery_level": 0.8675000000000116,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511036386286,
+              37.22569454160274,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:16:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.410041151135001,
+            "battery_level": 0.8670000000000117,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98503561793353,
+              37.225770134321536,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:18:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.607670749177945,
+            "battery_level": 0.8665000000000117,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98514721863239,
+              37.225760809797855,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:20:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 9.078621708935959,
+            "battery_level": 0.8660000000000118,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98512715947953,
+              37.22569471105426,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:22:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.682490438490061,
+            "battery_level": 0.8655000000000118,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98510035308966,
+              37.225708023274166,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:24:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.776949295014905,
+            "battery_level": 0.8650000000000119,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98513569225152,
+              37.22563549967042,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:26:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.121673293670604,
+            "battery_level": 0.8645000000000119,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98528432454614,
+              37.2257885068784,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:28:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.668781048165015,
+            "battery_level": 0.864000000000012,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98507004865559,
+              37.225720334459,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:30:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.683773241865515,
+            "battery_level": 0.863500000000012,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98519477156454,
+              37.225793279064,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:32:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.721050189988752,
+            "battery_level": 0.8630000000000121,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98508904141912,
+              37.22573589585099,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:34:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10.387531339584651,
+            "battery_level": 0.8625000000000121,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98517157018846,
+              37.22572388648545,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:36:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8.124561051991131,
+            "battery_level": 0.8620000000000122,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98525059126254,
+              37.22571249140071,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:38:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 5.8179143325411955,
+            "battery_level": 0.8615000000000123,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98516564135339,
+              37.22577007900754,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:40:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.98062453295027,
+            "battery_level": 0.8610000000000123,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9851729943108,
+              37.225759578286734,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:42:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.428123651855364,
+            "battery_level": 0.8605000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98518605324037,
+              37.225639866328,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:44:00.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 7.697534367572206,
+            "battery_level": 0.8600000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary",
+            "wifi": "JobSiteWiFi"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98511464820162,
+              37.225606135357786,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:45:00.000Z",
+            "speed": 20.700768210442376,
+            "horizontal_accuracy": 20.99783094835277,
+            "battery_level": 0.8590000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98335390213195,
+              37.22704472110129,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:47:00.000Z",
+            "speed": 23.01514371704516,
+            "horizontal_accuracy": 24.410318876544558,
+            "battery_level": 0.8580000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98085485129317,
+              37.228479800480905,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:49:00.000Z",
+            "speed": 13.123908859585153,
+            "horizontal_accuracy": 16.271379970024668,
+            "battery_level": 0.8570000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97886432926262,
+              37.22977985522193,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:51:00.000Z",
+            "speed": 20.562666757157494,
+            "horizontal_accuracy": 20.769161434717233,
+            "battery_level": 0.8560000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97678771341343,
+              37.23136785238554,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:53:00.000Z",
+            "speed": 24.530027545000436,
+            "horizontal_accuracy": 21.641147046949673,
+            "battery_level": 0.8550000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97465379991479,
+              37.232515158200194,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:55:00.000Z",
+            "speed": 9.264977376630242,
+            "horizontal_accuracy": 23.242918891012863,
+            "battery_level": 0.8540000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97266830480311,
+              37.23393437618515,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:57:00.000Z",
+            "speed": 15.056396834361646,
+            "horizontal_accuracy": 25.45052009911695,
+            "battery_level": 0.8530000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97035792868387,
+              37.23545294497934,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-25T23:59:00.000Z",
+            "speed": 8.915139353860074,
+            "horizontal_accuracy": 12.50037090176106,
+            "battery_level": 0.8520000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9683190376096,
+              37.23660154994745,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-26T00:01:00.000Z",
+            "speed": 15.566362669827514,
+            "horizontal_accuracy": 25.987661307864748,
+            "battery_level": 0.8510000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.96624767773184,
+              37.23794550885714,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-26T00:03:00.000Z",
+            "speed": 17.689996225767665,
+            "horizontal_accuracy": 21.55319637325614,
+            "battery_level": 0.8500000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.96396524677361,
+              37.23963397007014,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "sim-2866540",
+            "timestamp": "2026-03-26T00:05:00.000Z",
+            "speed": 14.902019192856596,
+            "horizontal_accuracy": 17.362227436565156,
+            "battery_level": 0.8490000000000124,
+            "battery_state": "unplugged",
+            "motion": [
+              "automotive"
+            ],
+            "activity": "automotive_navigation",
+            "wifi": null
+          }
+        }
+      ]
+    }
+  ]
+}

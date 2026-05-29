@@ -1,0 +1,114 @@
+{
+  "scenario": "2026-03-17_chad-buthker.json",
+  "meta": {
+    "employeeId": "2866540",
+    "employeeName": "Chad Buthker",
+    "date": "2026-03-17",
+    "dayOfWeek": "Tuesday",
+    "deviceId": "sim-2866540",
+    "totalHours": 8.25,
+    "entryCount": 3,
+    "pingCount": 270,
+    "qbtEntries": [
+      {
+        "timesheetId": 291936112,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 3.75,
+        "durationSeconds": 13500,
+        "start": "2026-03-17T07:45:00-07:00",
+        "end": "2026-03-17T11:30:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 292034066,
+        "jobcodeId": 171969570,
+        "jobcodeName": "JC-171969570",
+        "hours": 0.5,
+        "durationSeconds": 1800,
+        "start": "2026-03-17T11:30:00-07:00",
+        "end": "2026-03-17T12:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      },
+      {
+        "timesheetId": 292034062,
+        "jobcodeId": 171851070,
+        "jobcodeName": "Eklund",
+        "jobcodeType": "regular",
+        "billable": false,
+        "hours": 4,
+        "durationSeconds": 14400,
+        "start": "2026-03-17T12:00:00-07:00",
+        "end": "2026-03-17T16:00:00-07:00",
+        "type": "regular",
+        "notes": "Chad"
+      }
+    ],
+    "jobsites": [
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316,
+        "start": "2026-03-17T07:45:00-07:00",
+        "end": "2026-03-17T11:30:00-07:00",
+        "hours": 3.75
+      },
+      {
+        "name": "Eklund",
+        "propertyId": "PROP-00015",
+        "lat": 36.9764496,
+        "lng": -122.0525316,
+        "start": "2026-03-17T12:00:00-07:00",
+        "end": "2026-03-17T16:00:00-07:00",
+        "hours": 4
+      }
+    ]
+  },
+  "replayedAt": "2026-03-26T09:45:15.241Z",
+  "mode": "fast",
+  "drafts": [],
+  "qbtEntries": [
+    {
+      "timesheetId": 291936112,
+      "jobcodeId": 171851070,
+      "jobcodeName": "Eklund",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 3.75,
+      "durationSeconds": 13500,
+      "start": "2026-03-17T07:45:00-07:00",
+      "end": "2026-03-17T11:30:00-07:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 292034066,
+      "jobcodeId": 171969570,
+      "jobcodeName": "JC-171969570",
+      "hours": 0.5,
+      "durationSeconds": 1800,
+      "start": "2026-03-17T11:30:00-07:00",
+      "end": "2026-03-17T12:00:00-07:00",
+      "type": "regular",
+      "notes": "Chad"
+    },
+    {
+      "timesheetId": 292034062,
+      "jobcodeId": 171851070,
+      "jobcodeName": "Eklund",
+      "jobcodeType": "regular",
+      "billable": false,
+      "hours": 4,
+      "durationSeconds": 14400,
+      "start": "2026-03-17T12:00:00-07:00",
+      "end": "2026-03-17T16:00:00-07:00",
+      "type": "regular",
+      "notes": "Chad"
+    }
+  ]
+}

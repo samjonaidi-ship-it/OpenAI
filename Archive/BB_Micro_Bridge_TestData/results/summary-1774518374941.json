@@ -1,0 +1,248 @@
+{
+  "pass": 12,
+  "fail": 28,
+  "total": 40,
+  "scenarios": [
+    {
+      "file": "2026-03-05_chad-buthker.json",
+      "employee": "Chad Buthker",
+      "pings": 278,
+      "pass": true
+    },
+    {
+      "file": "2026-03-05_christian-incze.json",
+      "employee": "Christian Incze",
+      "pings": 270,
+      "pass": true
+    },
+    {
+      "file": "2026-03-05_clay-anderson.json",
+      "employee": "Clay Anderson",
+      "pings": 262,
+      "pass": true
+    },
+    {
+      "file": "2026-03-05_matt-miguel.json",
+      "employee": "Matt Miguel",
+      "pings": 262,
+      "pass": true
+    },
+    {
+      "file": "2026-03-06_chad-buthker.json",
+      "employee": "Chad Buthker",
+      "pings": 263,
+      "pass": true
+    },
+    {
+      "file": "2026-03-06_christian-incze.json",
+      "employee": "Christian Incze",
+      "pings": 248,
+      "pass": true
+    },
+    {
+      "file": "2026-03-06_clay-anderson.json",
+      "employee": "Clay Anderson",
+      "pings": 262,
+      "pass": true
+    },
+    {
+      "file": "2026-03-06_matt-miguel.json",
+      "employee": "Matt Miguel",
+      "pings": 262,
+      "pass": true
+    },
+    {
+      "file": "2026-03-09_chad-buthker.json",
+      "employee": "Chad Buthker",
+      "pings": 270,
+      "pass": false
+    },
+    {
+      "file": "2026-03-09_christian-incze.json",
+      "employee": "Christian Incze",
+      "pings": 270,
+      "pass": false
+    },
+    {
+      "file": "2026-03-09_clay-anderson.json",
+      "employee": "Clay Anderson",
+      "pings": 262,
+      "pass": true
+    },
+    {
+      "file": "2026-03-09_matt-miguel.json",
+      "employee": "Matt Miguel",
+      "pings": 270,
+      "pass": true
+    },
+    {
+      "file": "2026-03-10_chad-buthker.json",
+      "employee": "Chad Buthker",
+      "pings": 285,
+      "pass": false
+    },
+    {
+      "file": "2026-03-10_christian-incze.json",
+      "employee": "Christian Incze",
+      "pings": 285,
+      "pass": false
+    },
+    {
+      "file": "2026-03-10_clay-anderson.json",
+      "employee": "Clay Anderson",
+      "pings": 277,
+      "pass": false
+    },
+    {
+      "file": "2026-03-10_matt-miguel.json",
+      "employee": "Matt Miguel",
+      "pings": 277,
+      "pass": false
+    },
+    {
+      "file": "2026-03-11_chad-buthker.json",
+      "employee": "Chad Buthker",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-11_christian-incze.json",
+      "employee": "Christian Incze",
+      "pings": 247,
+      "pass": false
+    },
+    {
+      "file": "2026-03-11_clay-anderson.json",
+      "employee": "Clay Anderson",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-11_matt-miguel.json",
+      "employee": "Matt Miguel",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-12_chad-buthker.json",
+      "employee": "Chad Buthker",
+      "pings": 173,
+      "pass": true
+    },
+    {
+      "file": "2026-03-12_christian-incze.json",
+      "employee": "Christian Incze",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-12_clay-anderson.json",
+      "employee": "Clay Anderson",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-12_matt-miguel.json",
+      "employee": "Matt Miguel",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-13_chad-buthker.json",
+      "employee": "Chad Buthker",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-13_christian-incze.json",
+      "employee": "Christian Incze",
+      "pings": 277,
+      "pass": false
+    },
+    {
+      "file": "2026-03-13_clay-anderson.json",
+      "employee": "Clay Anderson",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-13_matt-miguel.json",
+      "employee": "Matt Miguel",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-16_chad-buthker.json",
+      "employee": "Chad Buthker",
+      "pings": 285,
+      "pass": true
+    },
+    {
+      "file": "2026-03-16_christian-incze.json",
+      "employee": "Christian Incze",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-16_clay-anderson.json",
+      "employee": "Clay Anderson",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-16_matt-miguel.json",
+      "employee": "Matt Miguel",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-17_chad-buthker.json",
+      "employee": "Chad Buthker",
+      "pings": 270,
+      "pass": false
+    },
+    {
+      "file": "2026-03-17_christian-incze.json",
+      "employee": "Christian Incze",
+      "pings": 263,
+      "pass": false
+    },
+    {
+      "file": "2026-03-17_clay-anderson.json",
+      "employee": "Clay Anderson",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-17_matt-miguel.json",
+      "employee": "Matt Miguel",
+      "pings": 255,
+      "pass": false
+    },
+    {
+      "file": "2026-03-18_chad-buthker.json",
+      "employee": "Chad Buthker",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-18_christian-incze.json",
+      "employee": "Christian Incze",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-18_clay-anderson.json",
+      "employee": "Clay Anderson",
+      "pings": 262,
+      "pass": false
+    },
+    {
+      "file": "2026-03-18_matt-miguel.json",
+      "employee": "Matt Miguel",
+      "pings": 262,
+      "pass": false
+    }
+  ],
+  "timestamp": "2026-03-26T09:46:14.941Z"
+}

@@ -1,0 +1,2158 @@
+{
+  "meta": {
+    "employeeId": "EMP-150",
+    "employeeName": "Ross Bainbridge (real→3/25)",
+    "date": "2026-03-25",
+    "deviceId": "qbt-ross-325",
+    "pingCount": 97,
+    "qbtEntries": [],
+    "jobsites": [],
+    "source": "qbt-geolocations"
+  },
+  "batches": [
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98492284,
+              37.22551424,
+              127.1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T13:21:28.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 28,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98489283,
+              37.22563819,
+              126.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T13:21:30.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 26.6,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.984089,
+              37.227504,
+              96
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T14:57:27.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98393349,
+              37.22780489,
+              96.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T14:57:30.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.982499,
+              37.229643,
+              95.5
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T14:58:05.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.979474,
+              37.232011,
+              90.7
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:00:22.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97807381,
+              37.23489557,
+              85.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:00:55.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97698896,
+              37.23871124,
+              89.1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:01:30.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.974431,
+              37.239945,
+              82.5
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:03:05.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97278474,
+              37.24144205,
+              76.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:34:29.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97116821,
+              37.24374306,
+              72.2
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:34:45.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.969586,
+              37.245749,
+              72.1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:34:59.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.96652998,
+              37.25061693,
+              62.7
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:35:35.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.96003167,
+              37.24971905,
+              60.8
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:37:36.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.957144,
+              37.253596,
+              61.2
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:39:04.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.953277,
+              37.259129,
+              52.6
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:39:29.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.950357,
+              37.263121,
+              47
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:39:45.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.947434,
+              37.270398,
+              44.1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:40:11.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.945495,
+              37.278209,
+              34.5
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:40:36.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.939031,
+              37.284412,
+              29.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:41:04.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.940429,
+              37.304696,
+              23.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:44:46.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.94044,
+              37.308607,
+              22.8
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:45:27.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.940235,
+              37.312717,
+              19.1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:45:46.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.939993,
+              37.315756,
+              22.7
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:45:58.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.932037,
+              37.316951,
+              5.7
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:46:25.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.922311,
+              37.316759,
+              4.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:46:51.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.912431,
+              37.314661,
+              0.2
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:47:19.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.903852,
+              37.317512,
+              14.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:47:59.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.898221,
+              37.322247,
+              -9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:48:26.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.890378,
+              37.324128,
+              5.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:48:51.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.881979,
+              37.326549,
+              8.7
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:49:25.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.876198,
+              37.327622,
+              6.5
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:49:46.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.86895,
+              37.324495,
+              1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:50:55.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.866776,
+              37.321531,
+              2.5
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:51:23.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.86399549,
+              37.31776717,
+              2.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:51:59.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.860695,
+              37.314062,
+              2.6
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:52:27.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.856229,
+              37.30987,
+              3.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:52:59.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.849443,
+              37.309073,
+              7.7
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T15:54:29.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.84876411,
+              37.30984518,
+              9.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T16:39:46.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.84876411,
+              37.30984518,
+              9.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T16:39:48.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.84876411,
+              37.30984518,
+              9.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T16:39:50.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.847798,
+              37.308026,
+              8.6
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T16:40:40.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.92120882,
+              37.2621015,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T16:59:16.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 78.2,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.92940979,
+              37.26169456,
+              63.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:00:33.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 45.6,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.93451549,
+              37.26231094,
+              70.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:02:10.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 45.5,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.94070736,
+              37.26605829,
+              63.2
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:02:49.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 58.1,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.94625158,
+              37.26040167,
+              88.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:04:03.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 45.6,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9492703,
+              37.25731879,
+              92.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:04:53.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 40,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.95543632,
+              37.2496577,
+              95.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:05:51.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 40,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.96331516,
+              37.25186359,
+              100.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:07:34.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 52.1,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        }
+      ]
+    },
+    {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.96648013,
+              37.2525987,
+              99.8
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:08:44.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 45.4,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97325055,
+              37.24129399,
+              105.1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:10:06.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 34,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97451127,
+              37.23971571,
+              108.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:10:21.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 26,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97677534,
+              37.23643913,
+              112.1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:32:20.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 37,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.976313,
+              37.236043,
+              80.7
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:32:22.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97936708,
+              37.23234532,
+              117.8
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:37:54.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 4.7,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98446103,
+              37.22920844,
+              125.8
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:39:07.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 32.9,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98556736,
+              37.22672585,
+              125.7
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T17:39:47.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 40,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98385197,
+              37.22797966,
+              98.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:03:11.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.982477,
+              37.229667,
+              100.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:03:41.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.979674,
+              37.231598,
+              90.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:06:23.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97793189,
+              37.23519104,
+              90
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:07:29.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97700151,
+              37.23859688,
+              86.8
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:08:03.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.976038,
+              37.24233,
+              97.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:08:39.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.975911,
+              37.242569,
+              97.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:08:41.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.973203,
+              37.246309,
+              92.2
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:09:13.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.96950524,
+              37.25052971,
+              71.6
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:09:47.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97372056,
+              37.25361448,
+              81.8
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:10:42.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97510832,
+              37.25764727,
+              76.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:11:28.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 10,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97737974,
+              37.25627581,
+              111.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:13:42.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 16.9,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97369644,
+              37.25932605,
+              87.5
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:24:17.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 40,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97627572,
+              37.25868408,
+              94.5
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:32:44.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 3.3,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97711971,
+              37.25619028,
+              114.6
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:41:55.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97721178,
+              37.25358962,
+              122.5
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T18:58:40.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 17.4,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97531321,
+              37.25175714,
+              126
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T19:19:07.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 133.7,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9760145,
+              37.24988482,
+              131.6
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T19:34:44.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 17.9,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97534011,
+              37.25483066,
+              132.6
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T20:14:47.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 82,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97544904,
+              37.25161305,
+              114.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T20:23:02.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 42.7,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9753185,
+              37.2553732,
+              114.2
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T20:41:21.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 62.4,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.9773585,
+              37.25635068,
+              112.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T20:49:43.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 40,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97735987,
+              37.25650768,
+              116.1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T20:49:55.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 3.3,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97484275,
+              37.25878936,
+              90.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T20:59:35.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 77,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97708371,
+              37.26046541,
+              88.6
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T21:13:59.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 45.7,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97852495,
+              37.26091354,
+              83.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T21:19:13.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 52.3,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97666605,
+              37.25822474,
+              97.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T21:25:09.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 122.1,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98016687,
+              37.25871873,
+              104.2
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T21:25:53.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 62.6,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97875686,
+              37.25619712,
+              114.1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T21:40:49.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 8,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98089094,
+              37.25806802,
+              116.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T21:41:27.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 34.9,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97809476,
+              37.25566072,
+              116.3
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T21:41:58.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 51.9,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97630425,
+              37.26004024,
+              101.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T22:08:10.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 68.5,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97628692,
+              37.2603047,
+              101.4
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T22:08:11.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 52.2,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97755229,
+              37.25885438,
+              102
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T22:21:45.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 6.9,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97921503,
+              37.26088222,
+              30
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T22:30:04.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 40,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.98016556,
+              37.25974869,
+              -1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T22:38:07.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 98.6,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97675041,
+              37.26045783,
+              109.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T22:38:39.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 51.9,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97830393,
+              37.25760201,
+              109.9
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T22:41:57.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 11.4,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        },
+        {
+          "type": "Feature",
+          "geometry": {
+            "type": "Point",
+            "coordinates": [
+              -121.97697912,
+              37.2568966,
+              105.1
+            ]
+          },
+          "properties": {
+            "device_id": "qbt-ross-325",
+            "timestamp": "2026-03-25T22:43:18.000Z",
+            "speed": 0,
+            "horizontal_accuracy": 50.6,
+            "battery_level": 0.85,
+            "motion": [
+              "stationary"
+            ],
+            "activity": "stationary"
+          }
+        }
+      ]
+    }
+  ]
+}
