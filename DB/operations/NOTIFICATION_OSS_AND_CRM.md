@@ -1,4 +1,18 @@
 # Notification OSS Options & Light CRM Integration
+> ## ⚠️ NAME MAP — read before trusting a table name below
+>
+> This document predates the implementation. Several tables it names were
+> designed and then built under different names, or not built at all. Verified
+> against production on 2026-08-16:
+>
+> | Named here | Actually |
+> |---|---|
+> | `cal_message_templates` | **`ct_bff.notification_templates`** — 90 rows, 52 keys, all `locale='en'` |
+> | `cal_external_notification_prefs` | **Does not exist in any database.** External recipients use the same `ct_bff.cal_notification_preferences` as everyone else, keyed on identity — plus `ct_bff.party_notification_defaults` (mig 185) for org-level defaults |
+>
+> The design intent in this document is still the reference. The table names are
+> not. Where the two disagree, the database wins.
+
 
 **Document:** NOTIFICATION_OSS_AND_CRM.md | v1.0 | 2026-05-10 | BB
 **Canonical location:** C:\Users\samjo\Desktop\OpenAI\DB\operations\
