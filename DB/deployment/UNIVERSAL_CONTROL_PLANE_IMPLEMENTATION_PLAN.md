@@ -28,7 +28,7 @@ The plan below is evidence-based from the following documents and code already r
 
 - `C:\Users\samjo\Desktop\OpenAI\DB\architecture\UNIVERSAL_CONTROL_PLANE_MODEL.md`
 - `C:\Users\samjo\Desktop\OpenAI\DB\architecture\ECOSYSTEM_TARGET_ARCHITECTURE.md`
-- `C:\Users\samjo\Desktop\BB_Receipt_Image_Pipeline_Strategy.md`
+- `C:\Users\samjo\Desktop\Claude\REPORTS\BB_Receipt_Image_Pipeline_Strategy.md`
 - `C:\Users\samjo\Desktop\BB_ControlTower\docs\UNIVERSAL_FEATURE_FLAGS.md`
 - `C:\Users\samjo\Desktop\BB_ControlTower\docs\UNIFIED_TOGGLES_AND_TENANCY.md`
 - `C:\Users\samjo\Desktop\CalExp5\docs\FEATURE_INVENTORY_2026-05-06.md`
